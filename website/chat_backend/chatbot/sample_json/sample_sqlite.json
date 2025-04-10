@@ -1,0 +1,6 @@
+{
+  "dbms": "sqlite",
+  "creds": {
+    "path": "db.sqlite3"
+  }
+}
