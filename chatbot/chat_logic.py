@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from intent_classifier import classify
 
 @dataclass
 class ChatMessage:
@@ -13,5 +14,14 @@ class Session:
 
 def chatWithBot(session: Session, message: str):
   session.history.append(ChatMessage(message, True))
-  # get message
-  session.history.append(ChatMessage("hi", False));
+  class_of_input = classify(message)
+  msg = "unknown"
+  if class_of_input == "general":
+    msg = "general"
+  elif class_of_input == "data query":
+    msg = "data query" # no reranker needed?/ decided where to find data?
+  elif class_of_input == "data analysis":
+    msg = "data analysis"
+
+  session.history.append(ChatMessage(msg, False));
+  return msg
