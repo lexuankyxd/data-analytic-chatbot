@@ -1,8 +1,0 @@
-- refactor the website source code
-- reformat the website
-- Add session management (ping pong system, message history seperation, login ?)
-- add indexing into the database
-
---
-- prompt caching
-- context retrieval

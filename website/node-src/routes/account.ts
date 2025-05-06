@@ -1,11 +1,13 @@
-const router = require('express').Router();
+export const accountRoutes = require('express').Router();
 import { Request, Response } from "express";
 import { createAccount, login } from "../internal-database/database";
 import { logMessage } from "../utilities/logger";
+import { hashGeneral } from "../utilities/hasher";
 const auth = require('../middleware/auth');
-import { generateToken, verifyToken } from "../middleware/auth";
+import { generateToken, refreshAccessToken, verifyAccessToken } from "../middleware/auth";
 
-router.post('/login', async (req: Request, res: Response) => {
+
+accountRoutes.post('/login', async (req: Request, res: Response) => {
   try {
     if (!("email" in req.body) || !("password" in req.body))
       return res.json({ "message": "Missing field." });
@@ -13,7 +15,15 @@ router.post('/login', async (req: Request, res: Response) => {
     if (result == "FAI") return res.json({ "message": "Login unsuccessful" });
     if (result == "ERR") return res.json({ "message": "Server internal error" })
     else {
-      return res.json({ "access_token": generateToken(`${result} ${req.body.email}`) });
+      const [access_token, refresh_token] = generateToken(req.body.email);
+      console.log(refresh_token);
+      res.cookie('refresh_token', refresh_token, {
+        httpOnly: true,
+        secure: true,      // only send cookie over HTTPS
+        sameSite: 'strict',
+        maxAge: 12 * 60 * 60 * 1000, // 12h
+      });
+      return res.json({ "access_token": access_token });
     }
   } catch (err) {
     logMessage("ERR", err as string);
@@ -21,7 +31,7 @@ router.post('/login', async (req: Request, res: Response) => {
   }
 });
 
-router.post('/register', async (req: Request, res: Response) => {
+accountRoutes.post('/register', async (req: Request, res: Response) => {
   try {
     if (!("email" in req.body) || !("password" in req.body) || !("username" in req.body))
       return res.json({ "message": "Missing field." });
@@ -36,4 +46,12 @@ router.post('/register', async (req: Request, res: Response) => {
   }
 });
 
-module.exports = router;
+accountRoutes.post('/refresh', (req: Request, res: Response) => {
+  var token = req.cookies.refresh_token;
+  if (!token) {
+    return res.status(401).json({ message: 'No refresh token' });
+  }
+  token = refreshAccessToken(token);
+  if (token == "INVALID TOKEN") return res.json({ "message": "Invalid token" });
+  return res.json({ "access_token": token });
+})

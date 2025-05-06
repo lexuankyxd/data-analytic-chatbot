@@ -1,29 +1,18 @@
-const BASE_URL = 'https://concrete-unlikely-stud.ngrok-free.app';
+import { BASE_URL, BASE_WEBSOCKET_URL } from "../config/config";
 
 interface AIResponse {
   ai: string;
 }
+console.log(BASE_WEBSOCKET_URL)
+const ws = new WebSocket("ws://" + BASE_WEBSOCKET_URL);
 
-export async function getAIResponse(message: string, tables: any[][]): Promise<AIResponse> {
-  try {
-    const response = await fetch(`${BASE_URL}/chat/`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ message, tables }),
-    });
 
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
 
-    return await response.json();
-  } catch (error) {
-    console.error('Fetch error:', error);
-    return { ai: "Sorry, I encountered an error processing your request." };
-  }
+export async function sendMessage(message: string, tables: any[][]): Promise<void> {
+  ws.send(message)
 }
+
+
 
 export async function executeSQL(query: string): Promise<string> {
   const response = await fetch(`${BASE_URL}/chat/query/`, {

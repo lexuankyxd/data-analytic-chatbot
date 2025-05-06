@@ -54,7 +54,7 @@ export async function login(email: string, password: string): Promise<string> {
       return "FAI";
     }
     logMessage("INF", `User ${email} logged in successfully`);
-    return user[0];
+    return "SUC";
   } catch (err) {
     logMessage("ERR", err)
     return "ERR";
