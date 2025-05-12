@@ -1,0 +1,7 @@
+{
+  "watch": [
+    "../../chatbot",
+    "."
+  ],
+  "ext": "ts, json, py"
+}

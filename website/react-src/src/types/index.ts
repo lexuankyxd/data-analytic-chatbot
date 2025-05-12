@@ -23,3 +23,16 @@ export interface ParsedCodePart {
   content: string;
   language?: string;
 }
+
+export type CMessage = {
+  text: string,
+  sender: "user" | "bot",
+  hasAttachment: boolean,
+  fileType: string | undefined,
+  preview: string | undefined
+}
+
+export type DashItem = {
+  title: string,
+  children: any
+}

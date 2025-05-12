@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
-import { Response } from 'express';
+import { Request, Response } from 'express';
 import { randomBytes } from "node:crypto";
 // var SECRET_KEY: string = randomBytes(64).toString('hex');
 const SECRET_ACCESS_KEY: string = "skibidy", SECRET_REFRESH_KEY: string = "toilet";
@@ -33,5 +33,33 @@ export function verifyAccessToken(token: string): string {
     return decoded.user_identifier;
   } catch (error) {
     return "INVALID TOKEN";
+  }
+}
+
+export async function protect(req: any, res: Response, next: CallableFunction) {
+  let token;
+  // Kiểm tra token trong Authorization header
+  if (
+    req.headers.authorization &&
+    req.headers.authorization.startsWith("Bearer")
+  ) {
+    try {
+      // Lấy token từ header
+      token = req.headers.authorization.split(" ")[1];
+
+      // Giải mã và lấy thông tin user từ token
+      const decoded = jwt.verify(token, SECRET_ACCESS_KEY);
+      req.user_email = decoded.user_identifier;
+      next(); // Cho phép tiếp tục vào route tiếp theo
+    } catch (error) {
+      console.error(error);
+      res
+        .status(401)
+        .json({ message: "Invalid access token" });
+    }
+  }
+
+  if (!token) {
+    res.status(401).json({ message: "No access token attached, rejecting request" });
   }
 }
