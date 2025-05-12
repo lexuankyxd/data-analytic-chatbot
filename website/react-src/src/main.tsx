@@ -3,10 +3,11 @@ import { createRoot } from 'react-dom/client'
 import { useEffect } from 'react'
 import './styles/index.css'
 import App from './app'
+import { BASE_URL } from './config/config'
 
 try {
   const fetchRefresh = async () => {
-    const r = await fetch("http://localhost:3000/account/refresh",
+    const r = await fetch(BASE_URL + "/account/refresh",
       {
         method: "POST",
         credentials: 'include'
