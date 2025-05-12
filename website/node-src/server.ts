@@ -1,5 +1,5 @@
 import { Request } from "express";
-import { WebsocketMethod } from "express-ws";
+const WebSocket = require('ws');
 
 const express = require('express');
 const bodyParserErrorHandler = require('express-body-parser-error-handler');
@@ -11,10 +11,10 @@ require("dotenv").config()
 
 const { chatRoutes } = require("./routes/chat")
 const { accountRoutes } = require('./routes/account');
-const websocketChat = require('./websocket_chat');
 
 const app = express();
 const server = http.createServer(app);
+const websocketChat = require('./websocket_chat');
 app.use(express.json());
 app.use(bodyParserErrorHandler());
 app.use(cookieParser());

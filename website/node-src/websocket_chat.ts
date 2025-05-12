@@ -1,12 +1,11 @@
-import WebSocket from 'ws';
 import url from 'url';
 const { assert } = require("assert")
 const net = require('net');
-const wss = new WebSocket.Server({ port: 3001 });
 const { verifyAccessToken } = require('./middleware/auth');
 const { lookUpHash } = require("./routes/account")
 import { spawn } from 'child_process';
 import fs from 'fs';
+import WebSocket from 'ws';
 
 try { fs.unlinkSync(process.env.MESSAGE_SOCKET_PATH as string); } catch (e) { }
 
@@ -52,10 +51,11 @@ interface WebSocketWithSessionInfo extends WebSocket {
 }
 const emailWSMap = new Map<string, WebSocketWithSessionInfo>();
 
-
+const wss = new WebSocket.Server({ port: 3001 })
 server.listen(process.env.MESSAGE_SOCKET_PATH, () => {
 });
 
+require("./spawn_mcp")
 wss.on('connection', (ws: WebSocketWithSessionInfo, req: Request) => {
   // verify user with access token, attach decoded email from token to ws object
   const parsedUrl = url.parse(req.url, true);
