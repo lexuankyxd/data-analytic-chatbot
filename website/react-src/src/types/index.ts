@@ -1,5 +1,5 @@
 export interface Message {
-  type: 'user' | 'ai';
+  type: "user" | "ai";
   content: string;
   codeBlocks?: number;
 }
@@ -19,15 +19,15 @@ export interface QueryResult {
 }
 
 export interface ParsedCodePart {
-  type: 'text' | 'code';
+  type: "text" | "code";
   content: string;
   language?: string;
 }
 
 export type CMessage = {
-  text: string,
-  sender: "user" | "bot",
-}
+  text: string;
+  sender: "user" | "bot";
+};
 
 // export type DashItem = {
 //   title: string,
@@ -35,10 +35,15 @@ export type CMessage = {
 // }
 
 export type FileMessage = {
-  name: string,
-  size: string,
-}
+  name: string;
+  size: string;
+};
 
 export type MessageItem = {
-  data: CMessage | FileMessage
-}
+  data: {
+    text?: string;
+    sender?: "user" | "bot";
+    name?: string;
+    size?: string;
+  };
+};

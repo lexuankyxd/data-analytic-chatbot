@@ -1,83 +1,46 @@
-import { useState } from 'react';
-import { BASE_URL } from '../config/config';
-import { MouseEvent, KeyboardEvent } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { KeyboardEvent, MouseEvent, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { BASE_URL } from "../config/config";
 export default function LoginPage() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [loginError, setLoginError] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [loginError, setLoginError] = useState("");
 
-  try {
-    const validateToken = async () => {
-      const r = await fetch(BASE_URL + "/account/validate",
-        {
-          method: "POST",
-          headers: {
-            'Content-Type': 'application/json',
-            'ngrok-skip-browser-warning': 'true'  // ngrok specific header to bypass warning page
-          },
-          body: JSON.stringify({ access_token: localStorage.getItem("authToken") })
-        })
-      const data = await r.json();
-      if ("message" in data && data.message == "Token valid") {
-        navigate("/")
-      }
-    }
-    if (localStorage.getItem("authToken"))
-      validateToken()
-  } catch (err) {
-    console.error(err)
-  }
-
-  const handleLogin = async (e: MouseEvent<HTMLButtonElement> | null = null) => {
+  const handleLogin = async (
+    e: MouseEvent<HTMLButtonElement> | null = null
+  ) => {
     if (e) e.preventDefault();
     if (!email || !password) {
-      setLoginError('Please enter both email and password');
+      setLoginError("Please enter both email and password");
     } else if (password.length < 8) {
-      setLoginError("Password length is not valid")
+      setLoginError("Password length is not valid");
     } else {
       const response = await fetch(BASE_URL + "/account/login", {
-        method: 'POST',
+        method: "POST",
         credentials: "include",
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password })
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
       });
       const data = await response.json();
       if ("access_token" in data) {
-        localStorage.setItem('authToken', data["access_token"]);
-        localStorage.setItem('email', email)
-        navigate("/")
-
-        const intervalId = setInterval(async () => {
-          const response = await fetch(BASE_URL + "/account/refresh", {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-          });
-
-          const data = await response.json();
-          if ("access_token" in data) {
-            localStorage.setItem('authToken', data["access_token"]);
-            setLoginError('');
-          } else {
-            navigate("/")
-          }
-
-        }, 1000 * 60 * 14);
-        localStorage.setItem("rIntervalId", "" + intervalId);
-        setLoginError('');
+        localStorage.setItem("authToken", data["access_token"]);
+        localStorage.setItem("email", email);
+        navigate("/");
+        setLoginError("");
       } else {
-        setLoginError(data["message"])
+        setLoginError(data["message"]);
       }
     }
   };
 
   // Handle Enter key in chat input
   const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter') {
+    if (e.key === "Enter") {
       handleLogin();
     }
   };
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-indigo-900 to-purple-800">
       <div className="w-full max-w-md p-8 bg-white rounded-lg shadow-2xl">
@@ -87,12 +50,12 @@ export default function LoginPage() {
           </div>
         )}
 
-        <div
-          className="space-y-6"
-          onKeyDown={handleKeyPress}
-        >
+        <div className="space-y-6" onKeyDown={handleKeyPress}>
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium text-gray-700"
+            >
               Email
             </label>
             <input
@@ -106,7 +69,10 @@ export default function LoginPage() {
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+            <label
+              htmlFor="password"
+              className="block text-sm font-medium text-gray-700"
+            >
               Password
             </label>
             <input
