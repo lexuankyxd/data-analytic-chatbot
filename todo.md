@@ -19,3 +19,5 @@ TODO:
 12) Maybe migrate the MCP client to the FE
 13) Better data representation for the query output (maybe add tool so the LLM can choose a representation most fitting?)
 14) Rewrite path variables
+15) Frontend file upload
+16) Better logging

@@ -1,3 +1,7 @@
+/*
+ *  DEPRECATED
+ */
+
 const mysql = require('mysql2');
 const { hashPassword, comparePasswords } = require('../utilities/hasher');
 const { logMessage } = require('../utilities/logger');

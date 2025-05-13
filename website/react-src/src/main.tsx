@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import './styles/index.css'
 import App from './app'
 import { BASE_URL } from './config/config'
@@ -10,6 +10,9 @@ try {
     const r = await fetch(BASE_URL + "/account/refresh",
       {
         method: "POST",
+        headers: {
+          'ngrok-skip-browser-warning': 'true'  // ngrok specific header to bypass warning page
+        },
         credentials: 'include'
       })
     const data = await r.json();

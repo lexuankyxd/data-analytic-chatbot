@@ -1,11 +1,12 @@
 import { Request, Response } from "express";
+import { RequestWithEmail } from "../types/types";
 
 const { protect } = require("../middleware/auth")
 export const chatRoutes = require('express').Router();
 const { upload } = require("../storage")
 const fs = require("fs")
 const net = require("net")
-
+const { RequestWithEmail } = require("../types/types")
 try { fs.unlinkSync(process.env.PROGRESS_SOCKET_PATH as string); } catch (e) { console.log(e) }
 var CLIENT: any = null
 
@@ -33,7 +34,7 @@ const server = net.createServer((client: any) => {
 server.listen(process.env.PROGRESS_SOCKET_PATH, () => {
 });
 
-chatRoutes.post("/upload", protect, upload.array('files'), (req: Request, res: Response) => {
+chatRoutes.post("/upload", protect, upload.array('files'), (req: RequestWithEmail, res: Response) => {
   if (!req.files || req.files.length === 0) {
     return res.status(400).send('No files uploaded.');
   }
@@ -45,7 +46,7 @@ chatRoutes.post("/upload", protect, upload.array('files'), (req: Request, res: R
   res.json({ file_id: file_id })
 })
 
-chatRoutes.get("/progress", protect, (req: any, res: Response) => {
+chatRoutes.get("/progress", protect, (req: RequestWithEmail, res: Response) => {
   if (!req.body.file) {
     return res.status(400).send("No file name");
   }
@@ -55,4 +56,8 @@ chatRoutes.get("/progress", protect, (req: any, res: Response) => {
   const tmp = { message: progress_map.get("/home/g0dz/projects/da-llm/files/" + req.body.file) };
   if (tmp.message == 100) progress_map.delete("/home/g0dz/projects/da-llm/files/" + req.body.file)
   return res.json(tmp)
+})
+
+chatRoutes.get("/historyLength", protect, (req: RequestWithEmail, res: Response) => {
+  req.user_email
 })

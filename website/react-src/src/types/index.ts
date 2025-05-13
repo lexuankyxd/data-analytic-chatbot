@@ -27,12 +27,18 @@ export interface ParsedCodePart {
 export type CMessage = {
   text: string,
   sender: "user" | "bot",
-  hasAttachment: boolean,
-  fileType: string | undefined,
-  preview: string | undefined
 }
 
-export type DashItem = {
-  title: string,
-  children: any
+// export type DashItem = {
+//   title: string,
+//   children: any
+// }
+
+export type FileMessage = {
+  name: string,
+  size: string,
+}
+
+export type MessageItem = {
+  data: CMessage | FileMessage
 }

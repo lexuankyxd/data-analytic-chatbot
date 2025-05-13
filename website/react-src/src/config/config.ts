@@ -1,3 +1,2 @@
-export const BASE_URL = "https://50c9-118-70-33-77.ngrok-free.app"
-export const BASE_WEBSOCKET_URL = "ws://8cf0-118-70-33-77.ngrok-free.app/"
-export var accessToken = null;
+export const BASE_URL = "https://452c-113-190-6-151.ngrok-free.app"
+export const BASE_WEBSOCKET_URL = "wss://33da-113-190-6-151.ngrok-free.app"
