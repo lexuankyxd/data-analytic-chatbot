@@ -18,3 +18,4 @@ TODO:
 11) Support more DBMS, add option to add a database on the fly and generate description on the fly (maybe also add caching description)
 12) Maybe migrate the MCP client to the FE
 13) Better data representation for the query output (maybe add tool so the LLM can choose a representation most fitting?)
+14) Rewrite path variables
