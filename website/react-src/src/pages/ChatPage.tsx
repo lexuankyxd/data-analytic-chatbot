@@ -145,10 +145,12 @@ export default function ChatPage() {
   };
 
   const EnumTools = {
-    current_dept_emp: {
-      component: <DataTable data={[]} />,
-    },
-    department: {},
+    "000": {component: <DataTable data={[]} />,},
+    "001": { component: <DataTable data={[]} /> },
+    "002": { component: <DataTable data={[]} /> },
+    "003": { component: <DataTable data={[]} /> },
+    "004": { component: <DataTable data={[]} /> },
+    "005": { component: <DataTable data={[]} /> },
   };
 
   // Scroll to bottom when messages change
