@@ -1,6 +1,15 @@
-  @import "tailwindcss";
+@import "tailwindcss";
 
-  body,
-  html {
-    font-family: 'Roboto', sans-serif;
-  }
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ul {
+  padding-left: 2rem;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 2rem;
+} */

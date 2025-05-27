@@ -23,6 +23,7 @@ export default function ChatPage() {
 
   // Use effect to initialize WebSocket connection on component mount
   useEffect(() => {
+    console.log("Hi")
     // Check authentication
     if (!localStorage.getItem("authToken")) {
       navigate("/login");
@@ -109,6 +110,8 @@ export default function ChatPage() {
     localStorage.removeItem('authToken');
     localStorage.removeItem('email');
     clearInterval(localStorage.getItem("rIntervalId")! as unknown as number)
+    if (ws && ws.readyState == ws.CONNECTED)
+      ws.close()
     try {
       const res = await fetch(BASE_URL + "/account/logout", {
         headers: {
