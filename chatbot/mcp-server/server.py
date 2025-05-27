@@ -8,6 +8,6 @@ mcp.mount("rag", rag_mcp)
 mcp.mount("sql", sql_mcp)
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="stdio")
     # clean up
     close_connection()

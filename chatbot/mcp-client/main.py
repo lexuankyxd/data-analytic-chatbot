@@ -14,6 +14,12 @@ headers = {"Authorization": "Bearer mytoken"}
 message_history = {}
 message_queue = []
 
+SYS_PROMPT = {
+					"role": "system",
+					"content": """You are a helpful assistant. Your job is to assist the user by all means possible.
+				 Make sure to format your message like utilizing newlines, lists and tables."""
+				}
+
 sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
 sock.connect(os.getenv("SOCKET_PATH"))
 
@@ -59,7 +65,7 @@ async def main():
       tool_lookup[resource] = "resource"
     for resource_template in resource_template_list:
       tool_lookup[resource_template] = "resource_template"
-
+    print(tool_lookup)
     list_of_tools = tools + resources + resource_templates
     # for tool in list_of_tools:
     #   print(json.dumps(tool, indent=2))
@@ -73,7 +79,6 @@ async def main():
       "total_tokens": 0,
       "cached_tokens": 0
     }
-    tool_called = False;
     # print(json.dumps(list_of_tools, indent=2))
     while True:
       if len(message_queue) == 0:
@@ -87,7 +92,7 @@ async def main():
       #   print(m)
       response = await llm.chat.completions.create(
         model="qwen-plus",
-        messages=message_history[item["user"]],
+        messages=[SYS_PROMPT] + message_history[item["user"]],
         tools=list_of_tools
       )
       try:
@@ -108,14 +113,16 @@ async def main():
       elif response.choices[0].finish_reason == "tool_calls":
         tool_calls = [tool.to_dict() for tool in response.choices[0].message.tool_calls]
         message_history[item["user"]].append({"role": "assistant", "content": None, "tool_calls": response.choices[0].message.tool_calls})
-        tool_called=True
         for i in range(len(tool_calls)):
           tool_calls[i]["function"]["arguments"] = json.loads(tool_calls[i]["function"]["arguments"])
-          sock.sendall(json.dumps({"user": item["user"], "message": json.dumps(tool_calls[i]), "type": "TL0"}).encode("utf-8") + b'\r\n')
+          sock.sendall(json.dumps({"user": item["user"], "message": json.dumps(tool_calls[i]), "type": "000"}).encode("utf-8") + b'\r\n')
           tool_calls[i]["type"] = tool_lookup[tool_calls[i]["function"]["name"]]
           tmp = await mcpCall(tool_calls[i], client)
           message_queue.append({"user": item["user"], "message": {"role": "tool", "content": tmp[0].text, "tool_call_id": tool_calls[i]["id"]}})
-          sock.sendall(json.dumps({"user": item["user"], "message": json.dumps(json.loads(tmp[0].text), indent=2, ensure_ascii=False), "type": "TL1"}).encode("utf-8") + b'\r\n')
+          if "error" in tmp[0].text:
+            sock.sendall(json.dumps({"user": item["user"], "message": json.dumps(json.loads(tmp[0].text), indent=2, ensure_ascii=False), "type": "ERR"}).encode("utf-8") + b'\r\n')
+          else:
+            sock.sendall(json.dumps({"user": item["user"], "message": json.dumps(json.loads(tmp[0].text), indent=2, ensure_ascii=False), "type": helper_functions.lookup_tool_code(tool_calls[i]["function"]["name"])}).encode("utf-8") + b'\r\n')
       # sys.stdout.flush()
     for message in message_history:
       if "tool_calls" in message:
@@ -138,6 +145,6 @@ def inputToMessageQueue():
 
 if __name__ == "__main__":
   t1 = threading.Thread(target=inputToMessageQueue, name="input to message queue")
+  t1.daemon = True
   t1.start()
   asyncio.run(main())
-  t1.join()

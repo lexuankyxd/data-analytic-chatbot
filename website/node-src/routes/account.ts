@@ -15,11 +15,11 @@ accountRoutes.post('/login', async (req: Request, res: Response) => {
     if (result == "FAI") return res.json({ "message": "Login unsuccessful" });
     if (result == "ERR") return res.json({ "message": "Server internal error" })
     else {
-      const [access_token, refresh_token] = generateToken(req.body.email);
+      const [access_token, refresh_token] = generateToken(req.body.email, result);
       res.cookie('refresh_token', refresh_token, {
         httpOnly: true,
-        secure: true,      // only send cookie over HTTPS
-        sameSite: 'none',
+        secure: false,      // only send cookie over HTTPS
+        sameSite: 'lax',
         maxAge: 12 * 60 * 60 * 1000, // 12h
         path: "/"
       });
@@ -36,7 +36,7 @@ accountRoutes.post('/register', async (req: Request, res: Response) => {
     if (!("email" in req.body) || !("password" in req.body) || !("username" in req.body))
       return res.json({ "message": "Missing field." });
     const result = await createAccount(req.body.username, req.body.email, req.body.password);
-    if (result == "ERR") return res.json({ "error": "Registration error." });
+    if (!result) return res.json({ "error": "Registration error." });
     else {
       return res.json({ "message": "Account registered" });
     }
@@ -72,8 +72,8 @@ accountRoutes.post("/validate", (req: Request, res: Response) => {
 accountRoutes.get("/logout", (req: Request, res: Response) => {
   res.clearCookie('refresh_token', {
     httpOnly: true,
-    secure: true,
-    sameSite: "none",
+    secure: false,
+    sameSite: "lax",
     maxAge: 12 * 60 * 60 * 1000, // 12h
     path: "/"
   });

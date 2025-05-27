@@ -1,5 +1,5 @@
 // File: src/App.js
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 // import InfoCard from './components/InfoCard';
 // import { BASE_WEBSOCKET_URL } from './config/config';
 import LoginPage from './pages/LoginPage';
@@ -9,7 +9,7 @@ function App() {
     <Routes>
       <Route path="/" element={<ChatPage />} />
       <Route path="/login" element={<LoginPage />} />
-
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   </Router>);
 }

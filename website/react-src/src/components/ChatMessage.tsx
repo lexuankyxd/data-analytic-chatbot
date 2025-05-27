@@ -1,3 +1,4 @@
+import Markdown from 'react-markdown'
 /**
  * Component for rendering individual chat messages
  * @param {Object} props
@@ -8,15 +9,17 @@ const ChatMessage = ({ text, sender }: { text: string, sender: string }) => {
   return (
     <div className={`flex ${sender === 'user' ? 'justify-end' : 'justify-start'}`}>
       <div
-        className={`rounded-2xl py-3 px-4 max-w-sm shadow-md
+        className={`rounded-2xl py-3 px-4 max-w-10/12 shadow-md
           ${sender === 'user'
             ? 'bg-indigo-600 text-white rounded-tr-none'
             : 'bg-white text-gray-800 rounded-tl-none border border-gray-200'
           }`}
       >
-        <div className="flex flex-col">
-          {text}
+        <div className="flex flex-col break-words word-break " style={{ whiteSpace: 'pre-line' }}>
 
+          <Markdown>
+            {text}
+          </Markdown>
         </div>
       </div>
     </div>

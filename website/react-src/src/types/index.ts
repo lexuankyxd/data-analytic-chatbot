@@ -42,3 +42,16 @@ export type FileMessage = {
 export type MessageItem = {
   data: CMessage | FileMessage
 }
+
+export interface FileWithProgress {
+  file: File,
+  progress: number,
+}
+
+export type ToolMessage = {
+  id: string,
+  type: string,
+  timestamp: string,
+  expanded: boolean,
+  data: any
+}

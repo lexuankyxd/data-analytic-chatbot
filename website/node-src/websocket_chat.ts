@@ -1,82 +1,54 @@
 import url from 'url';
-const { assert } = require("assert")
-const net = require('net');
 const { verifyAccessToken } = require('./middleware/auth');
 const { lookUpHash } = require("./routes/account")
 import { spawn } from 'child_process';
-import fs from 'fs';
+import { createThread } from './internal-database/sqlite_db';
 import WebSocket from 'ws';
+import { SocketServer } from './socket';
+import { ChatMessage, UserSession, WebSocketWithSessionInfo } from './types/types'
+import { logMessage } from './utilities/logger';
 
-try { fs.unlinkSync(process.env.MESSAGE_SOCKET_PATH as string); } catch (e) { }
-
-var CLIENT: any = null
-
-const server = net.createServer((client: any) => {
-  CLIENT = client
-  let dataBuffer = '';
-  console.log("MCP Client Connected")
-  client.setEncoding('utf8');
-
-  // var i = 0;
-  // setInterval(() => {
-  //   i++
-  //   client.write(JSON.stringify({ user: "demo", message: "Message " + i }) + "\n")
-  // }, 1000)
-  client.on('data', (chunk: any) => {
-    dataBuffer += chunk;
-    if (dataBuffer.endsWith('\r\n')) {
-      const message = JSON.parse(dataBuffer);
-      emailWSMap.get(message.user)?.send(message.type + ":" + message.message)
-      dataBuffer = '';
-    }
-  });
-  client.on('end', () => {
-    console.log('Client disconnected');
-  });
+const server = new SocketServer("MCP Client", process.env.MESSAGE_SOCKET_PATH!, (message: string) => {
+  const obj = JSON.parse(message);
+  emailWSMap.get(obj.user)?.userSession.addMessage({ sender: "ASSISTANT", content: obj.content })
+  emailWSMap.get(obj.user)?.send(JSON.stringify(obj))
 });
 
-
-type ChatMessage = {
-  sender: "USER" | "ASSITANT";
-  content: string;
-}
-
-type UserSession = {
-  email: string | undefined;
-  history: ChatMessage[];
-}
-
-interface WebSocketWithSessionInfo extends WebSocket {
-  userSession: UserSession;
-}
 const emailWSMap = new Map<string, WebSocketWithSessionInfo>();
 
 const wss = new WebSocket.Server({ port: 3001 })
-server.listen(process.env.MESSAGE_SOCKET_PATH, () => {
-});
 
-require("./spawn_mcp")
 wss.on('connection', (ws: WebSocketWithSessionInfo, req: Request) => {
   // verify user with access token, attach decoded email from token to ws object
   const parsedUrl = url.parse(req.url, true);
   var token = url.parse(req.url, true).query.token;
+
   if (!token) {
-    ws.send("ERR:Missing access token");
+    ws.send(JSON.stringify({ type: "EER", message: "No token found" }));
     ws.close();
   }
-  token = verifyAccessToken(token);
+
+  const decoded = verifyAccessToken(token);
+
   if (token == "INVALID TOKEN") {
-    ws.send("ERR:Invalid access token");
+    ws.send(JSON.stringify({ type: "EER", message: "Invalid access token" }));
     ws.close();
   }
-  ws.userSession = { email: token as string, history: [] };
-  emailWSMap.set(token as string, ws);
-  ws.on('message', (message: string) => {
-    ws.userSession.history.push({ sender: "USER", content: message });
-    console.log(JSON.stringify({ user: token, message }))
-    CLIENT.write(JSON.stringify({ user: token, message }) + "\n")
+
+  ws.userSession = new UserSession(decoded.email, decoded.id);
+  emailWSMap.set(decoded.id, ws);
+
+  ws.on('message', async (message: string) => {
+    ws.userSession.addMessage({ sender: "USER", content: message });
+
+    logMessage("INF", JSON.stringify({ user: decoded.id, message }))
+    server.sendMessage(JSON.stringify({ user: decoded.id, message }))
   });
   ws.on('close', () => {
+    ws.userSession.saveMessages();
+    // const f = open("/home/g0dz/projects/da-llm/website/node-src/chatlogs/" + ws.userSession.user_id + "_" + ws.userSession.conv_id, "a");
+
+    logMessage("INF", ws.userSession["email"] + " exited")
 
   });
 });

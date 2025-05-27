@@ -63,3 +63,14 @@ def mcp_resource_templates_to_tool_list(resource_template_list: list[dict]) -> l
       tmp["function"]["parameters"]["required"].append(param[0])
     res.append(tmp)
   return res
+
+
+TOOL_CODE_LOOKUP = {
+  "sql+db://schema/{db_name*}": "001",
+  "sql+db://list_tables/{db_name*}": "002",
+  "sql+db://list_databases": "003",
+  "rag_query": "004",
+  "sql_query_db": "005"
+}
+def lookup_tool_code(name):
+  return TOOL_CODE_LOOKUP[name];

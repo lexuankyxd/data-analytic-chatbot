@@ -15,7 +15,7 @@ const LOG_FILE = process.env.LOG_FILE || './logs.txt';
  */
 
 function messageFormat(code: string, message: string): string {
-  return `[${new Date().toISOString()}][${code}] ${message}\n`;
+  return `[${new Date().toISOString()}][${code}] ${message}`;
 }
 
 /*
@@ -31,7 +31,7 @@ export function setLogMode(mode: string): void {
 
 async function file_log(code: string, message: string): Promise<void> {
   try {
-    await appendFile(LOG_FILE, messageFormat(code, message));
+    await appendFile(LOG_FILE, messageFormat(code, message) + '\n');
   } catch (err) {
     throw err;
   }

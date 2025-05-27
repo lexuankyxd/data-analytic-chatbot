@@ -14,8 +14,8 @@ load_dotenv()
 
 rag_mcp = FastMCP("RAG")
 # rag_api = FastAPI()
-client = chromadb.PersistentClient("/home/g0dz/projects/da-llm/chatbot/mcp-server/vstore")
-
+# client = chromadb.PersistentClient("/home/g0dz/projects/da-llm/chatbot/mcp-server/vstore")
+client = chromadb.EphemeralClient()
 openai_ef = embedding_functions.OpenAIEmbeddingFunction(
   api_key=os.getenv("ALIBABA_API_KEY"),
   api_base=os.getenv("BASE_API_URL"),
@@ -24,16 +24,19 @@ openai_ef = embedding_functions.OpenAIEmbeddingFunction(
 
 collection = client.get_or_create_collection("main", embedding_function=openai_ef)
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-
 def loadIntoVectorStoreThread():
   sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
   sock.connect("/home/g0dz/projects/da-llm/socket/progress.sock")
-  while True:
-    entries = os.listdir("/home/g0dz/projects/da-llm/files")
 
-    # Filter only files
-    files = [os.path.join("/home/g0dz/projects/da-llm/files", f) for f in entries if os.path.isfile(os.path.join("/home/g0dz/projects/da-llm/files", f))]
-    for document in files:
+  data_buffer = ''
+  while True:
+    data = sock.recv(1024).decode('utf-8')
+    data_buffer += data
+    # Process each complete JSON object separated by newline
+    while '\n' in data_buffer:
+      document, data_buffer = data_buffer.split('\n', 1)
+      if not document.strip():
+        continue
       _, ext = os.path.splitext(document);
       if not ext == ".pdf":
         continue
@@ -61,7 +64,7 @@ t1.start()
 @rag_mcp.tool()
 def query(
   query: Annotated[str, Field(description="Query to gather relavent context from uploaded files.")]
-) -> dict:
+) -> list:
   """Queries the vector store for relevant context."""
   res = collection.query(query_texts=[query], n_results=3)
-  return {"documents": res["documents"], "metadata": res["metadatas"][0]}
+  return [{"data": res["documents"][0][i], "metadata": res["metadatas"][0][i]} for i in range(3)]
