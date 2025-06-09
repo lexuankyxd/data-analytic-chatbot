@@ -26,3 +26,5 @@ TODO:
 22) the fact that the client lives on a python script is fucking stupid, please rewrite it in ts
 23) parallelize api calling somehow, race condition and shit
 24) prompt for markdown
+25) Rate limit
+26) Save vector store for the session

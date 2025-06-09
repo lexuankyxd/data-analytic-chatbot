@@ -1,4 +1,5 @@
 import { Request } from "express";
+import { logMessage, setLogMode } from "./utilities/logger";
 const WebSocket = require('ws');
 
 const express = require('express');
@@ -11,6 +12,8 @@ require("dotenv").config()
 
 const { chatRoutes } = require("./routes/chat")
 const { accountRoutes } = require('./routes/account');
+
+setLogMode("CONSOLE+FILE")
 
 const app = express();
 const server = http.createServer(app);
@@ -28,5 +31,5 @@ app.use("/account", accountRoutes);
 app.use("/chat", chatRoutes)
 
 server.listen(process.env.PORT || 3000, () => {
-  console.log('Server is running on port 3000');
+  logMessage("INF", 'Server is running on port 3000');
 });

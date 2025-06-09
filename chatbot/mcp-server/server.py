@@ -1,6 +1,6 @@
 from fastmcp import FastMCP
 from rag_mcp import rag_mcp
-from sql_mcp import sql_mcp, close_connection
+from sql_mcp import sql_mcp
 
 mcp = FastMCP("EmceeP")
 
@@ -10,4 +10,3 @@ mcp.mount("sql", sql_mcp)
 if __name__ == "__main__":
     mcp.run(transport="stdio")
     # clean up
-    close_connection()

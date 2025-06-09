@@ -3,42 +3,33 @@ from fastmcp import FastMCP
 from typing import Annotated
 from pydantic import Field
 
-mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="password",
-)
-
+mydb = None
 sql_mcp = FastMCP("SQL")
 
 # Executes the SQL
 @sql_mcp.tool()
 def query_db(query: Annotated[str, Field(description="The SQL query to be executed, remember fetch the schema via the tool beforehand and connect to the database")]) -> dict:
   """Execute the query"""
-  cursor = mydb.cursor()
   try:
+    mydb = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="password"
+    )
+    cursor = mydb.cursor()
     cursor.execute(query)
     rows = cursor.fetchall()
-  # if print_to_console:
-  #   # Get column names
-  #   columns = [desc[0] for desc in cursor.description]
 
-  #   # Combine column names and data for width calculation
-  #   data = [columns] + list(rows)
-  #   col_widths = [max(len(str(item)) for item in col) for col in zip(*data)]
-
-  #   # Print header
-  #   header = " | ".join(str(col).ljust(width) for col, width in zip(columns, col_widths))
-  #   print(header)
-  #   print("-" * len(header))
-
-  #   # Print rows
-  #   for row in rows:
-  #       print(" | ".join(str(col).ljust(width) for col, width in zip(row, col_widths)))
     assert cursor.description is not None
-    return {"headers":[field_md[0] for field_md in cursor.description], "data": rows}
+    return {
+        "headers": [field_md[0] for field_md in cursor.description],
+        "data": rows
+    }
   except Exception as e:
     return {"error": str(e)}
+  finally:
+    if mydb is not None:
+        mydb.close()
 # Returns a json describing the database, if the database is not found, returns None
 @sql_mcp.resource(
   "db://schema/{db_name*}",
@@ -100,7 +91,3 @@ def list_tables(db_name: Annotated[str, "Database name"]) -> dict:
   """Returns a list of tables in the database"""
   res = query_db(f"SHOW TABLES FROM {db_name}")
   return {res["headers"][0]: res["data"]}
-
-# query_db("SHOW DATABASES;", True)
-def close_connection():
-  mydb.close()

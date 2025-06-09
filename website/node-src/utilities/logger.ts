@@ -7,15 +7,31 @@ dotenv.config();
 
 const LOG_MODES = ["CONSOLE", "FILE", "CONSOLE+FILE"]
 type LOG_MODE = "CONSOLE" | "FILE" | "CONSOLE+FILE";
-var log_mode: LOG_MODE = "CONSOLE";
-const LOG_FILE = process.env.LOG_FILE || './logs.txt';
+var log_mode: LOG_MODE = "CONSOLE+FILE";
+const LOG_FILE = process.env.LOG_FILE || './APP_LOG.log';
 
 /*
  * Returns a formated message
  */
 
-function messageFormat(code: string, message: string): string {
-  return `[${new Date().toISOString()}][${code}] ${message}`;
+function messageConsoleFormat(code: string, message: string): string {
+  return `[${getCurrentDateTime()}][${code}] ${message}`;
+}
+
+function getCurrentDateTime() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0'); // Month is 0-indexed
+  const day = String(now.getDate()).padStart(2, '0');
+  const hours = String(now.getHours()).padStart(2, '0');
+  const minutes = String(now.getMinutes()).padStart(2, '0');
+  const seconds = String(now.getSeconds()).padStart(2, '0');
+
+  return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+}
+
+function messageFileSyslogFormat(code: string, message: string): string {
+  return `${getCurrentDateTime()} linux-ky webserver[${process.pid}]: ${code} ${message}`
 }
 
 /*
@@ -31,16 +47,16 @@ export function setLogMode(mode: string): void {
 
 async function file_log(code: string, message: string): Promise<void> {
   try {
-    await appendFile(LOG_FILE, messageFormat(code, message) + '\n');
+    await appendFile(LOG_FILE, messageConsoleFormat(code, message) + '\n');
   } catch (err) {
     throw err;
   }
 }
 
 async function console_file_log(code: string, message: string): Promise<void> {
-  console.log(`[${code}] ${message}`);
+  console.log(messageConsoleFormat(code, message));
   try {
-    await appendFile(LOG_FILE, messageFormat(code, message));
+    await appendFile(LOG_FILE, messageFileSyslogFormat(code, message) + '\n');
   } catch (err) {
     throw err;
   }
@@ -54,11 +70,10 @@ async function console_file_log(code: string, message: string): Promise<void> {
 
 export async function logMessage(code: string, message: string): Promise<void> {
   if (log_mode == "CONSOLE") {
-    console.log(messageFormat(code, message));
+    console.log(messageConsoleFormat(code, message));
   } else if (log_mode == "FILE") {
     await file_log(code, message);
   } else if (log_mode == "CONSOLE+FILE") {
-    console.log(messageFormat(code, message));
     await console_file_log(code, message);
   }
 }

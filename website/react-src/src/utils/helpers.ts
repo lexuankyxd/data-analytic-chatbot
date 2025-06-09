@@ -97,30 +97,28 @@ function parseSchemaJson(schemaJson: string): { tables } {
   return { tables };
 }
 
-export function processToolMessages(id: string, type: string, data: string) {
+export function processToolMessages(id: string, type: string, data: any) {
   let tmp: any;
   let out_data: any;
   switch (type) {
     case "000":
-      tmp = JSON.parse(data);
-      out_data = { arguments: tmp.function.arguments, name: tmp.function.name }
+      out_data = { arguments: JSON.parse(data.tool_calls[0].function.arguments), name: data.tool_calls[0].function.name }
       break;
     case "001":
-      out_data = parseSchemaJson(data);
+      out_data = parseSchemaJson(data.content);
       break;
     case "002":
-      tmp = JSON.parse(data);
+      tmp = JSON.parse(data.content);
       out_data = { tables: (tmp[Object.keys(tmp)[0]] as string[][]).flat() };
       break;
     case "003":
-      tmp = JSON.parse(data);
+      tmp = JSON.parse(data.content);
       out_data = { databases: (tmp[Object.keys(tmp)[0]] as string[][]).flat() };
-      console.log(out_data)
       break;
     case "004":
     case "005":
     case "ERR":
-      out_data = JSON.parse(data)
+      out_data = JSON.parse(data.content)
       break;
     default:
       break;

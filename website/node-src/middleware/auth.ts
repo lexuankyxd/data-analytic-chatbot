@@ -55,7 +55,6 @@ export async function protect(req: any, res: Response, next: CallableFunction) {
       req.user_id = decoded.id;
       next(); // Cho phép tiếp tục vào route tiếp theo
     } catch (error) {
-      console.error("what", error);
       res
         .status(401)
         .json({ message: "Invalid access token" });

@@ -27,7 +27,7 @@ export class SocketServer {
           const tmp = dataBuffer.split('\r\n');
           if (tmp.length > 1) {
             for (let i = 0; i < tmp.length - 1; i++) {
-              next(dataBuffer)
+              next(tmp[i])
             }
             dataBuffer = tmp[tmp.length - 1];
           }
@@ -37,7 +37,13 @@ export class SocketServer {
         });
       });
 
-      this.server!.listen(address)
+      this.server!.on('error', (e) => {
+        logMessage("ERR", `Socket server ${name} initialization failed ${e}`)
+      })
+
+      this.server!.listen(address, () => {
+        logMessage("INF", `Socket server ${name} initialization succeeded`)
+      })
     }
   }
 

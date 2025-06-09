@@ -55,3 +55,9 @@ export type ToolMessage = {
   expanded: boolean,
   data: any
 }
+
+export type Thread = {
+  id: string,
+  title: string,
+  timestamp?: string
+}

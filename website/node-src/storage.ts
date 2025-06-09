@@ -7,7 +7,7 @@ const allowedExtensions = [".pdf"]
 
 export const upload = multer({
   storage: multer.diskStorage({
-    destination: process.env.FILE_SAVE,
+    destination: process.env.FILE_SAVE_PATH,
     filename: (req: RequestWithEmail, file: any, cb: any) => {
       cb(null, req.user_email + "-" + file.originalname.split("-").join("") + '-' + Date.now() + path.extname(file.originalname));
     },

@@ -11,6 +11,7 @@ import { ws, connectToWebSocket, sendMessageToWebSocket } from "../websocket";
 import FileItem from "../components/FileItem";
 import ToolResult from "../components/ToolsContainer"
 import { getCurrentTimestamp, processToolMessages } from "../utils/helpers";
+import ThreadPane from "../components/ThreadPane";
 
 export default function ChatPage() {
   const [message, setMessage] = useState('');
@@ -35,31 +36,8 @@ export default function ChatPage() {
       connectToWebSocket();
       console.log("WS OPEN");
     }
-
+    handleWebSocketMessage(message);
     // WebSocket event handlers
-    const handleWebSocketMessage = (message) => {
-      if (message.type === "message") {
-        const data = JSON.parse(message.data);
-        console.log("WebSocket message received:", data);
-
-        if (data.type === "EER") {
-          const ERR_CODE = data.message;
-          if (ERR_CODE === "Invalid access token") {
-            handleLogout("ws err code");
-          }
-        } else if (data.type === "MSG") {
-          console.log("Bot message received:", data.message);
-          setChatMessages(prevMessages => [
-            ...prevMessages,
-            { text: data.message, sender: 'bot' }
-          ]);
-        } else {
-          setToolResults((prevTool) => [
-            ...prevTool, processToolMessages("" + prevTool.length, data.type, data.message)
-          ]);
-        }
-      }
-    };
 
     const handleWebSocketClose = (event) => {
       console.log("WS CLOSED", event);
@@ -77,6 +55,31 @@ export default function ChatPage() {
       };
     }
   }, [navigate]); // Only re-run if navigate changes
+
+  const handleWebSocketMessage = (message) => {
+    // console.log(message);
+    if (message.type === "message") {
+      const data = JSON.parse(message.data);
+      // console.log("WebSocket message received:", data);
+
+      if (data.type === "EER") {
+        const ERR_CODE = data.message;
+        if (ERR_CODE === "Invalid access token") {
+          handleLogout("ws err code");
+        }
+      } else if (data.type === "MSG") {
+        // console.log("Bot message received:", data);
+        setChatMessages(prevMessages => [
+          ...prevMessages,
+          { text: data.message.content, sender: data.message.role == "assistant" ? "bot" : "user" }
+        ]);
+      } else {
+        setToolResults((prevTool) => [
+          ...prevTool, processToolMessages("" + prevTool.length, data.type, data.message)
+        ]);
+      }
+    }
+  };
 
   const getFileProgress = async (name: string) => {
     const r = await fetch(BASE_URL + "/chat/progress", {
@@ -109,8 +112,9 @@ export default function ChatPage() {
   const handleLogout = async (msg: string) => {
     localStorage.removeItem('authToken');
     localStorage.removeItem('email');
+    localStorage.removeItem('activeThreadId');
     clearInterval(localStorage.getItem("rIntervalId")! as unknown as number)
-    if (ws && ws.readyState == ws.CONNECTED)
+    if (ws && ws.readyState != ws.CLOSED)
       ws.close()
     try {
       const res = await fetch(BASE_URL + "/account/logout", {
@@ -165,6 +169,7 @@ export default function ChatPage() {
         }
 
         const i_id = setInterval(async () => {
+          localStorage.setItem("rIntervalId", i_id.toString())
           for (const [key, value] of arr) {
             const x = await getFileProgress(value.id)
             if (x == 100) {
@@ -219,6 +224,27 @@ export default function ChatPage() {
         handleSendMessage();
     }
   };
+
+  const switchThread = async (thread_id: string) => {
+    let data = "";
+    console.log("CLICKED")
+    while (data.length == 0) {
+      const res = await fetch(BASE_URL + "/chat/getThread?thread_id=" + thread_id, {
+        method: "GET",
+        headers: {
+          "Authorization": `Bearer ${localStorage.getItem("authToken")}`
+        }
+      });
+      data = await res.text();
+    }
+    const thread = JSON.parse(data);
+    setChatMessages([]);
+    setToolResults([]);
+    setUploadedFiles([]);
+    for (let i = 0; i < thread.message.length; i++) {
+      handleWebSocketMessage({ data: JSON.stringify(thread.message[i]), type: "message" })
+    }
+  }
 
   const tabs = [
     {
@@ -287,8 +313,11 @@ export default function ChatPage() {
         />
       )}
 
+
       <div className="w-full h-full shadow-md flex flex-col overflow-hidden bg-transparent">
         <div className="flex flex-1 overflow-hidden">
+          {/* Chat thread */}
+          {ThreadPane({ switchThread })}
           {/* Chat area with light background */}
           <div className="bg-white rounded-lg mr-2 w-9/12 flex-grow flex flex-col overflow-y-auto p-6 shadow-sm">
             <div className="flex justify-between items-center mb-6">

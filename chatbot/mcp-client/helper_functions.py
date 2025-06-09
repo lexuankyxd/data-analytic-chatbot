@@ -7,6 +7,7 @@ def mcp_tools_to_tool_list(tool_list: list[dict]) -> list:
     tmp = {
       "type": "function",
       "function": {
+        "strict": True,
         "name": tool["name"],
         "description": tool["description"],
       }
@@ -31,6 +32,7 @@ def mcp_resources_to_tool_list(resource_list: list[dict]) -> list:
     tmp = {
       "type": "function",
       "function": {
+        "strict": True,
         "name": resource["uri"],
         "description": resource["description"],
       }
@@ -47,6 +49,7 @@ def mcp_resource_templates_to_tool_list(resource_template_list: list[dict]) -> l
     tmp = {
       "type": "function",
       "function": {
+        "strict": True,
         "name": resource_template["uriTemplate"],
         "description": des,
       }

@@ -1,0 +1,1470 @@
+2025-05-30 17:50:29 UbuntuAgent webserver[48885]: INF Socket server MCP Server initialization succeeded
+2025-05-30 17:50:29 UbuntuAgent webserver[48885]: INF Socket server MCP Client initialization succeeded
+2025-05-30 17:50:29 UbuntuAgent webserver[48885]: INF Server is running on port 3000
+2025-05-30 17:50:29 UbuntuAgent webserver[48885]: INF Connected to SQLite database.
+2025-05-30 17:50:29 UbuntuAgent webserver[48885]: INF MCP Client connected
+2025-05-30 17:50:31 UbuntuAgent webserver[48885]: INF MCP Server connected
+2025-05-30 18:08:56 UbuntuAgent webserver[48885]: INF User demo@demo.com logged in successfully
+2025-05-30 18:26:29 UbuntuAgent webserver[48885]: INF User demo@demo.com logged in successfully
+2025-05-30 18:49:00 linux-ky webserver[60041]: INF Socket server MCP Server initialization succeeded
+2025-05-30 18:49:00 linux-ky webserver[60041]: INF Socket server MCP Client initialization succeeded
+2025-05-30 18:49:00 linux-ky webserver[60041]: INF Server is running on port 3000
+2025-05-30 18:49:00 linux-ky webserver[60041]: INF Connected to SQLite database.
+2025-05-30 18:49:01 linux-ky webserver[60041]: INF MCP Client connected
+2025-05-30 18:49:04 linux-ky webserver[60041]: INF MCP Server connected
+2025-06-01 22:30:18 linux-ky webserver[111700]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:30:18 linux-ky webserver[111700]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:30:18 linux-ky webserver[111700]: INF Server is running on port 3000
+2025-06-01 22:30:18 linux-ky webserver[111700]: INF Connected to SQLite database.
+2025-06-01 22:30:19 linux-ky webserver[111700]: INF MCP Client connected
+2025-06-01 22:30:24 linux-ky webserver[111700]: INF MCP Server connected
+2025-06-01 22:31:12 linux-ky webserver[111700]: INF undefined exited
+2025-06-01 22:32:07 linux-ky webserver[112786]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:32:07 linux-ky webserver[112786]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:32:07 linux-ky webserver[112786]: INF Server is running on port 3000
+2025-06-01 22:32:07 linux-ky webserver[112786]: INF Connected to SQLite database.
+2025-06-01 22:32:08 linux-ky webserver[112786]: INF MCP Client connected
+2025-06-01 22:32:12 linux-ky webserver[112786]: INF MCP Server connected
+2025-06-01 22:33:21 linux-ky webserver[113113]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:33:21 linux-ky webserver[113113]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:33:21 linux-ky webserver[113113]: INF Server is running on port 3000
+2025-06-01 22:33:21 linux-ky webserver[113113]: INF Connected to SQLite database.
+2025-06-01 22:33:21 linux-ky webserver[113113]: INF MCP Client connected
+2025-06-01 22:33:49 linux-ky webserver[113283]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:33:49 linux-ky webserver[113283]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:33:49 linux-ky webserver[113283]: INF Server is running on port 3000
+2025-06-01 22:33:49 linux-ky webserver[113283]: INF Connected to SQLite database.
+2025-06-01 22:33:50 linux-ky webserver[113283]: INF MCP Client connected
+2025-06-01 22:33:54 linux-ky webserver[113283]: INF MCP Server connected
+2025-06-01 22:33:56 linux-ky webserver[113283]: INF {"message":"yo"}
+2025-06-01 22:33:56 linux-ky webserver[113283]: INF MCP Server 0 client disconnected
+2025-06-01 22:33:56 linux-ky webserver[113283]: INF MCP Client 0 client disconnected
+2025-06-01 22:35:21 linux-ky webserver[113513]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:35:21 linux-ky webserver[113513]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:35:21 linux-ky webserver[113513]: INF Server is running on port 3000
+2025-06-01 22:35:21 linux-ky webserver[113513]: INF Connected to SQLite database.
+2025-06-01 22:35:22 linux-ky webserver[113513]: INF MCP Client connected
+2025-06-01 22:35:25 linux-ky webserver[113513]: INF MCP Server connected
+2025-06-01 22:35:27 linux-ky webserver[113513]: INT {"message":"yo"}
+2025-06-01 22:35:27 linux-ky webserver[113513]: INF MCP Server 0 client disconnected
+2025-06-01 22:35:28 linux-ky webserver[113513]: INF MCP Client 0 client disconnected
+2025-06-01 22:35:56 linux-ky webserver[113694]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:35:56 linux-ky webserver[113694]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:35:56 linux-ky webserver[113694]: INF Server is running on port 3000
+2025-06-01 22:35:56 linux-ky webserver[113694]: INF Connected to SQLite database.
+2025-06-01 22:35:56 linux-ky webserver[113694]: INF MCP Client connected
+2025-06-01 22:36:00 linux-ky webserver[113694]: INF MCP Server connected
+2025-06-01 22:36:00 linux-ky webserver[113694]: INT {"message":"yo"}
+2025-06-01 22:36:00 linux-ky webserver[113694]: INF MCP Server 0 client disconnected
+2025-06-01 22:36:01 linux-ky webserver[113694]: INF MCP Client 0 client disconnected
+2025-06-01 22:36:23 linux-ky webserver[113886]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:36:23 linux-ky webserver[113886]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:36:23 linux-ky webserver[113886]: INF Server is running on port 3000
+2025-06-01 22:36:23 linux-ky webserver[113886]: INF Connected to SQLite database.
+2025-06-01 22:36:23 linux-ky webserver[113886]: INF MCP Client connected
+2025-06-01 22:36:24 linux-ky webserver[113886]: INF undefined exited
+2025-06-01 22:36:28 linux-ky webserver[113886]: INF MCP Server connected
+2025-06-01 22:36:36 linux-ky webserver[113886]: INF User demo@demo.com logged in successfully
+2025-06-01 22:36:51 linux-ky webserver[113886]: INT {"user":1,"message":"yo"}
+2025-06-01 22:38:13 linux-ky webserver[114136]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:38:13 linux-ky webserver[114136]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:38:13 linux-ky webserver[114136]: INF Server is running on port 3000
+2025-06-01 22:38:13 linux-ky webserver[114136]: INF Connected to SQLite database.
+2025-06-01 22:38:13 linux-ky webserver[114136]: INF MCP Client connected
+2025-06-01 22:38:18 linux-ky webserver[114136]: INF MCP Server connected
+2025-06-01 22:39:14 linux-ky webserver[114400]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:39:14 linux-ky webserver[114400]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:39:14 linux-ky webserver[114400]: INF Server is running on port 3000
+2025-06-01 22:39:14 linux-ky webserver[114400]: INF Connected to SQLite database.
+2025-06-01 22:39:14 linux-ky webserver[114400]: INF MCP Client connected
+2025-06-01 22:39:19 linux-ky webserver[114400]: INF MCP Server connected
+2025-06-01 22:41:01 linux-ky webserver[114822]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:41:01 linux-ky webserver[114822]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:41:01 linux-ky webserver[114822]: INF Server is running on port 3000
+2025-06-01 22:41:01 linux-ky webserver[114822]: INF Connected to SQLite database.
+2025-06-01 22:41:01 linux-ky webserver[114822]: INF MCP Client connected
+2025-06-01 22:41:05 linux-ky webserver[114822]: INF MCP Server connected
+2025-06-01 22:41:06 linux-ky webserver[114822]: INF MCP Client connected
+2025-06-01 22:41:10 linux-ky webserver[114822]: INF MCP Server connected
+2025-06-01 22:41:16 linux-ky webserver[114822]: INT [object Object]
+2025-06-01 22:51:13 linux-ky webserver[115948]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:51:13 linux-ky webserver[115948]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:51:13 linux-ky webserver[115948]: INF Server is running on port 3000
+2025-06-01 22:51:13 linux-ky webserver[115948]: INF Connected to SQLite database.
+2025-06-01 22:51:14 linux-ky webserver[115948]: INF MCP Client connected
+2025-06-01 22:51:18 linux-ky webserver[115948]: INF MCP Server connected
+2025-06-01 22:51:25 linux-ky webserver[115948]: INT [object Object]
+2025-06-01 22:53:07 linux-ky webserver[116338]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:53:07 linux-ky webserver[116338]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:53:07 linux-ky webserver[116338]: INF Server is running on port 3000
+2025-06-01 22:53:07 linux-ky webserver[116338]: INF Connected to SQLite database.
+2025-06-01 22:53:08 linux-ky webserver[116338]: INF MCP Client connected
+2025-06-01 22:53:12 linux-ky webserver[116338]: INF MCP Server connected
+2025-06-01 22:53:14 linux-ky webserver[116338]: INT [object Object]
+2025-06-01 22:53:41 linux-ky webserver[116515]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:53:41 linux-ky webserver[116515]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:53:41 linux-ky webserver[116515]: INF Server is running on port 3000
+2025-06-01 22:53:41 linux-ky webserver[116515]: INF Connected to SQLite database.
+2025-06-01 22:53:41 linux-ky webserver[116515]: INF MCP Client connected
+2025-06-01 22:53:45 linux-ky webserver[116515]: INF MCP Server connected
+2025-06-01 22:53:59 linux-ky webserver[116677]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:53:59 linux-ky webserver[116677]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:53:59 linux-ky webserver[116677]: INF Server is running on port 3000
+2025-06-01 22:53:59 linux-ky webserver[116677]: INF Connected to SQLite database.
+2025-06-01 22:53:59 linux-ky webserver[116677]: INF MCP Client connected
+2025-06-01 22:54:03 linux-ky webserver[116677]: INF MCP Server connected
+2025-06-01 22:54:22 linux-ky webserver[116677]: INF MCP Client connected
+2025-06-01 22:54:26 linux-ky webserver[116677]: INF MCP Server connected
+2025-06-01 22:55:17 linux-ky webserver[116966]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:55:17 linux-ky webserver[116966]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:55:17 linux-ky webserver[116966]: INF Server is running on port 3000
+2025-06-01 22:55:17 linux-ky webserver[116966]: INF Connected to SQLite database.
+2025-06-01 22:55:17 linux-ky webserver[116966]: INF MCP Client connected
+2025-06-01 22:55:21 linux-ky webserver[116966]: INF MCP Server connected
+2025-06-01 22:55:26 linux-ky webserver[116966]: INF MCP Client connected
+2025-06-01 22:55:29 linux-ky webserver[116966]: INF MCP Server connected
+2025-06-01 22:56:48 linux-ky webserver[117497]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:56:48 linux-ky webserver[117497]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:56:48 linux-ky webserver[117497]: INF Server is running on port 3000
+2025-06-01 22:56:48 linux-ky webserver[117497]: INF Connected to SQLite database.
+2025-06-01 22:56:49 linux-ky webserver[117497]: INF MCP Client connected
+2025-06-01 22:56:53 linux-ky webserver[117497]: INF MCP Server connected
+2025-06-01 22:56:58 linux-ky webserver[117497]: INF MCP Client connected
+2025-06-01 22:57:02 linux-ky webserver[117497]: INF MCP Server connected
+2025-06-01 22:58:45 linux-ky webserver[118245]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:58:45 linux-ky webserver[118245]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:58:45 linux-ky webserver[118245]: INF Server is running on port 3000
+2025-06-01 22:58:45 linux-ky webserver[118245]: INF Connected to SQLite database.
+2025-06-01 22:58:46 linux-ky webserver[118245]: INF MCP Client connected
+2025-06-01 22:58:50 linux-ky webserver[118245]: INF MCP Server connected
+2025-06-01 22:59:36 linux-ky webserver[118609]: INF Socket server MCP Server initialization succeeded
+2025-06-01 22:59:36 linux-ky webserver[118609]: INF Socket server MCP Client initialization succeeded
+2025-06-01 22:59:36 linux-ky webserver[118609]: INF Server is running on port 3000
+2025-06-01 22:59:36 linux-ky webserver[118609]: INF Connected to SQLite database.
+2025-06-01 22:59:36 linux-ky webserver[118609]: INF MCP Client connected
+2025-06-01 22:59:40 linux-ky webserver[118609]: INF MCP Server connected
+2025-06-01 22:59:45 linux-ky webserver[118609]: INF MCP Client connected
+2025-06-01 22:59:48 linux-ky webserver[118609]: INF MCP Server connected
+2025-06-01 23:25:23 linux-ky webserver[118609]: INF MCP Server 1 client disconnected
+2025-06-01 23:25:24 linux-ky webserver[118609]: INF MCP Client 1 client disconnected
+2025-06-01 23:25:28 linux-ky webserver[118609]: INF MCP Client connected
+2025-06-01 23:25:32 linux-ky webserver[118609]: INF MCP Server connected
+2025-06-01 23:27:18 linux-ky webserver[118609]: INF MCP Server 2 client disconnected
+2025-06-01 23:27:19 linux-ky webserver[118609]: INF MCP Client 2 client disconnected
+2025-06-01 23:29:21 linux-ky webserver[126171]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:29:21 linux-ky webserver[126171]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:29:21 linux-ky webserver[126171]: INF Server is running on port 3000
+2025-06-01 23:29:21 linux-ky webserver[126171]: INF Connected to SQLite database.
+2025-06-01 23:29:22 linux-ky webserver[126171]: INF MCP Client connected
+2025-06-01 23:29:25 linux-ky webserver[126171]: INF MCP Server connected
+2025-06-01 23:29:26 linux-ky webserver[126171]: INF MCP Server 0 client disconnected
+2025-06-01 23:29:26 linux-ky webserver[126171]: INF MCP Client 0 client disconnected
+2025-06-01 23:29:31 linux-ky webserver[126171]: INF MCP Client connected
+2025-06-01 23:29:35 linux-ky webserver[126171]: INF MCP Server connected
+2025-06-01 23:29:35 linux-ky webserver[126171]: INF MCP Server 1 client disconnected
+2025-06-01 23:29:35 linux-ky webserver[126171]: INF MCP Client 1 client disconnected
+2025-06-01 23:33:14 linux-ky webserver[126815]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:33:14 linux-ky webserver[126815]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:33:14 linux-ky webserver[126815]: INF Server is running on port 3000
+2025-06-01 23:33:14 linux-ky webserver[126815]: INF Connected to SQLite database.
+2025-06-01 23:33:14 linux-ky webserver[126815]: INF MCP Client connected
+2025-06-01 23:33:18 linux-ky webserver[126815]: INF MCP Server connected
+2025-06-01 23:33:18 linux-ky webserver[126815]: INF MCP Server 0 client disconnected
+2025-06-01 23:33:18 linux-ky webserver[126815]: INF MCP Client 0 client disconnected
+2025-06-01 23:35:11 linux-ky webserver[127088]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:35:11 linux-ky webserver[127088]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:35:11 linux-ky webserver[127088]: INF Server is running on port 3000
+2025-06-01 23:35:11 linux-ky webserver[127088]: INF Connected to SQLite database.
+2025-06-01 23:36:42 linux-ky webserver[127271]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:36:42 linux-ky webserver[127271]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:36:42 linux-ky webserver[127271]: INF Server is running on port 3000
+2025-06-01 23:36:42 linux-ky webserver[127271]: INF Connected to SQLite database.
+2025-06-01 23:37:01 linux-ky webserver[127344]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:37:01 linux-ky webserver[127344]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:37:01 linux-ky webserver[127344]: INF Server is running on port 3000
+2025-06-01 23:37:01 linux-ky webserver[127344]: INF Connected to SQLite database.
+2025-06-01 23:38:11 linux-ky webserver[127618]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:38:11 linux-ky webserver[127618]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:38:11 linux-ky webserver[127618]: INF Server is running on port 3000
+2025-06-01 23:38:11 linux-ky webserver[127618]: INF Connected to SQLite database.
+2025-06-01 23:38:15 linux-ky webserver[127618]: INF MCP Server connected
+2025-06-01 23:38:15 linux-ky webserver[127618]: INF MCP Server 0 client disconnected
+2025-06-01 23:38:55 linux-ky webserver[127891]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:38:55 linux-ky webserver[127891]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:38:55 linux-ky webserver[127891]: INF Server is running on port 3000
+2025-06-01 23:38:55 linux-ky webserver[127891]: INF Connected to SQLite database.
+2025-06-01 23:39:09 linux-ky webserver[128045]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:39:09 linux-ky webserver[128045]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:39:09 linux-ky webserver[128045]: INF Server is running on port 3000
+2025-06-01 23:39:09 linux-ky webserver[128045]: INF Connected to SQLite database.
+2025-06-01 23:39:38 linux-ky webserver[128351]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:39:38 linux-ky webserver[128351]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:39:38 linux-ky webserver[128351]: INF Server is running on port 3000
+2025-06-01 23:39:38 linux-ky webserver[128351]: INF Connected to SQLite database.
+2025-06-01 23:39:44 linux-ky webserver[128413]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:39:44 linux-ky webserver[128413]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:39:44 linux-ky webserver[128413]: INF Server is running on port 3000
+2025-06-01 23:39:44 linux-ky webserver[128413]: INF Connected to SQLite database.
+2025-06-01 23:40:36 linux-ky webserver[128753]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:40:36 linux-ky webserver[128753]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:40:36 linux-ky webserver[128753]: INF Server is running on port 3000
+2025-06-01 23:40:36 linux-ky webserver[128753]: INF Connected to SQLite database.
+2025-06-01 23:40:37 linux-ky webserver[128753]: INF MCP Client connected
+2025-06-01 23:40:40 linux-ky webserver[128753]: INF MCP Server connected
+2025-06-01 23:41:33 linux-ky webserver[128753]: INF MCP Server 0 client disconnected
+2025-06-01 23:41:34 linux-ky webserver[128753]: INF MCP Client 0 client disconnected
+2025-06-01 23:41:40 linux-ky webserver[128753]: INF MCP Client connected
+2025-06-01 23:41:43 linux-ky webserver[128753]: INF MCP Server connected
+2025-06-01 23:41:52 linux-ky webserver[128753]: INF MCP Server 1 client disconnected
+2025-06-01 23:41:53 linux-ky webserver[128753]: INF MCP Client 1 client disconnected
+2025-06-01 23:44:01 linux-ky webserver[129470]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:44:01 linux-ky webserver[129470]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:44:01 linux-ky webserver[129470]: INF Server is running on port 3000
+2025-06-01 23:44:01 linux-ky webserver[129470]: INF Connected to SQLite database.
+2025-06-01 23:44:01 linux-ky webserver[129470]: INF MCP Client connected
+2025-06-01 23:44:06 linux-ky webserver[129470]: INF MCP Server connected
+2025-06-01 23:44:27 linux-ky webserver[129470]: INF MCP Server 0 client disconnected
+2025-06-01 23:44:28 linux-ky webserver[129470]: INF MCP Client 0 client disconnected
+2025-06-01 23:44:37 linux-ky webserver[129470]: INF MCP Client connected
+2025-06-01 23:44:41 linux-ky webserver[129470]: INF MCP Server connected
+2025-06-01 23:44:44 linux-ky webserver[129470]: INF MCP Server 1 client disconnected
+2025-06-01 23:44:45 linux-ky webserver[129470]: INF MCP Client 1 client disconnected
+2025-06-01 23:44:56 linux-ky webserver[129470]: INF MCP Client connected
+2025-06-01 23:45:05 linux-ky webserver[129933]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:45:05 linux-ky webserver[129933]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:45:05 linux-ky webserver[129933]: INF Server is running on port 3000
+2025-06-01 23:45:05 linux-ky webserver[129933]: INF Connected to SQLite database.
+2025-06-01 23:45:05 linux-ky webserver[129933]: INF MCP Client connected
+2025-06-01 23:45:09 linux-ky webserver[129933]: INF MCP Server connected
+2025-06-01 23:45:15 linux-ky webserver[129933]: INF MCP Client connected
+2025-06-01 23:45:20 linux-ky webserver[129933]: INF MCP Server connected
+2025-06-01 23:45:38 linux-ky webserver[129933]: INF MCP Server 1 client disconnected
+2025-06-01 23:45:39 linux-ky webserver[129933]: INF MCP Client 1 client disconnected
+2025-06-01 23:48:18 linux-ky webserver[130687]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:48:18 linux-ky webserver[130687]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:48:18 linux-ky webserver[130687]: INF Server is running on port 3000
+2025-06-01 23:48:18 linux-ky webserver[130687]: INF Connected to SQLite database.
+2025-06-01 23:48:18 linux-ky webserver[130687]: INF MCP Client connected
+2025-06-01 23:48:22 linux-ky webserver[130687]: INF MCP Server connected
+2025-06-01 23:51:34 linux-ky webserver[131100]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:51:34 linux-ky webserver[131100]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:51:34 linux-ky webserver[131100]: INF Server is running on port 3000
+2025-06-01 23:51:34 linux-ky webserver[131100]: INF Connected to SQLite database.
+2025-06-01 23:51:35 linux-ky webserver[131100]: INF MCP Client connected
+2025-06-01 23:51:40 linux-ky webserver[131100]: INF MCP Server connected
+2025-06-01 23:54:03 linux-ky webserver[131100]: INF MCP Client connected
+2025-06-01 23:54:13 linux-ky webserver[131434]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:54:13 linux-ky webserver[131434]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:54:13 linux-ky webserver[131434]: INF Server is running on port 3000
+2025-06-01 23:54:13 linux-ky webserver[131434]: INF Connected to SQLite database.
+2025-06-01 23:54:13 linux-ky webserver[131434]: INF MCP Client connected
+2025-06-01 23:54:17 linux-ky webserver[131434]: INF MCP Server connected
+2025-06-01 23:54:18 linux-ky webserver[131434]: INF MCP Client connected
+2025-06-01 23:54:22 linux-ky webserver[131434]: INF MCP Server connected
+2025-06-01 23:54:51 linux-ky webserver[131736]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:54:51 linux-ky webserver[131736]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:54:51 linux-ky webserver[131736]: INF Server is running on port 3000
+2025-06-01 23:54:51 linux-ky webserver[131736]: INF Connected to SQLite database.
+2025-06-01 23:54:51 linux-ky webserver[131736]: INF MCP Client connected
+2025-06-01 23:54:55 linux-ky webserver[131736]: INF MCP Server connected
+2025-06-01 23:54:57 linux-ky webserver[131736]: INF MCP Client connected
+2025-06-01 23:55:01 linux-ky webserver[131736]: INF MCP Server connected
+2025-06-01 23:55:08 linux-ky webserver[131736]: INF MCP Server 1 client disconnected
+2025-06-01 23:55:08 linux-ky webserver[131736]: INF MCP Client 1 client disconnected
+2025-06-01 23:58:00 linux-ky webserver[132271]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:58:00 linux-ky webserver[132271]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:58:00 linux-ky webserver[132271]: INF Server is running on port 3000
+2025-06-01 23:58:00 linux-ky webserver[132271]: INF Connected to SQLite database.
+2025-06-01 23:58:00 linux-ky webserver[132271]: INF MCP Client connected
+2025-06-01 23:58:05 linux-ky webserver[132271]: INF MCP Server connected
+2025-06-01 23:58:11 linux-ky webserver[132271]: INF MCP Server 0 client disconnected
+2025-06-01 23:58:12 linux-ky webserver[132271]: INF MCP Client 0 client disconnected
+2025-06-01 23:58:52 linux-ky webserver[132464]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:58:52 linux-ky webserver[132464]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:58:52 linux-ky webserver[132464]: INF Server is running on port 3000
+2025-06-01 23:58:52 linux-ky webserver[132464]: INF Connected to SQLite database.
+2025-06-01 23:58:52 linux-ky webserver[132464]: INF MCP Client connected
+2025-06-01 23:58:57 linux-ky webserver[132464]: INF MCP Server connected
+2025-06-01 23:58:59 linux-ky webserver[132464]: INF MCP Server 0 client disconnected
+2025-06-01 23:58:59 linux-ky webserver[132464]: INF MCP Client 0 client disconnected
+2025-06-01 23:59:31 linux-ky webserver[132649]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:59:31 linux-ky webserver[132649]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:59:31 linux-ky webserver[132649]: INF Server is running on port 3000
+2025-06-01 23:59:31 linux-ky webserver[132649]: INF Connected to SQLite database.
+2025-06-01 23:59:57 linux-ky webserver[132784]: INF Socket server MCP Server initialization succeeded
+2025-06-01 23:59:57 linux-ky webserver[132784]: INF Socket server MCP Client initialization succeeded
+2025-06-01 23:59:57 linux-ky webserver[132784]: INF Server is running on port 3000
+2025-06-01 23:59:57 linux-ky webserver[132784]: INF Connected to SQLite database.
+2025-06-01 23:59:57 linux-ky webserver[132784]: INF MCP Client connected
+2025-06-02 00:00:02 linux-ky webserver[132784]: INF MCP Server connected
+2025-06-02 00:00:05 linux-ky webserver[132784]: INF MCP Server 0 client disconnected
+2025-06-02 00:00:06 linux-ky webserver[132784]: INF MCP Client 0 client disconnected
+2025-06-02 00:01:00 linux-ky webserver[133094]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:01:00 linux-ky webserver[133094]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:01:00 linux-ky webserver[133094]: INF Server is running on port 3000
+2025-06-02 00:01:00 linux-ky webserver[133094]: INF Connected to SQLite database.
+2025-06-02 00:01:00 linux-ky webserver[133094]: INF MCP Client connected
+2025-06-02 00:01:04 linux-ky webserver[133094]: INF MCP Server connected
+2025-06-02 00:01:08 linux-ky webserver[133094]: INF MCP Server 0 client disconnected
+2025-06-02 00:01:08 linux-ky webserver[133094]: INF MCP Client 0 client disconnected
+2025-06-02 00:05:49 linux-ky webserver[133725]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:05:49 linux-ky webserver[133725]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:05:49 linux-ky webserver[133725]: INF Server is running on port 3000
+2025-06-02 00:05:49 linux-ky webserver[133725]: INF Connected to SQLite database.
+2025-06-02 00:09:02 linux-ky webserver[134116]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:09:02 linux-ky webserver[134116]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:09:02 linux-ky webserver[134116]: INF Server is running on port 3000
+2025-06-02 00:09:02 linux-ky webserver[134116]: INF Connected to SQLite database.
+2025-06-02 00:09:02 linux-ky webserver[134116]: INF MCP Client connected
+2025-06-02 00:09:06 linux-ky webserver[134116]: INF MCP Server connected
+2025-06-02 00:10:05 linux-ky webserver[134337]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:10:05 linux-ky webserver[134337]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:10:05 linux-ky webserver[134337]: INF Server is running on port 3000
+2025-06-02 00:10:05 linux-ky webserver[134337]: INF Connected to SQLite database.
+2025-06-02 00:10:05 linux-ky webserver[134337]: INF MCP Client connected
+2025-06-02 00:10:09 linux-ky webserver[134337]: INF MCP Server connected
+2025-06-02 00:10:13 linux-ky webserver[134337]: INF MCP Server 0 client disconnected
+2025-06-02 00:10:13 linux-ky webserver[134337]: INF MCP Client 0 client disconnected
+2025-06-02 00:12:34 linux-ky webserver[134893]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:12:34 linux-ky webserver[134893]: INF Server is running on port 3000
+2025-06-02 00:12:34 linux-ky webserver[134893]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:12:34 linux-ky webserver[134893]: INF Connected to SQLite database.
+2025-06-02 00:12:34 linux-ky webserver[134893]: INF MCP Client connected
+2025-06-02 00:12:39 linux-ky webserver[134893]: INF MCP Server connected
+2025-06-02 00:13:35 linux-ky webserver[135056]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:13:35 linux-ky webserver[135056]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:13:35 linux-ky webserver[135056]: INF Server is running on port 3000
+2025-06-02 00:13:35 linux-ky webserver[135056]: INF Connected to SQLite database.
+2025-06-02 00:13:36 linux-ky webserver[135056]: INF MCP Client connected
+2025-06-02 00:13:39 linux-ky webserver[135056]: INF MCP Server connected
+2025-06-02 00:13:46 linux-ky webserver[135056]: INF MCP Server 0 client disconnected
+2025-06-02 00:13:46 linux-ky webserver[135056]: INF MCP Client 0 client disconnected
+2025-06-02 00:14:10 linux-ky webserver[135056]: INF MCP Client connected
+2025-06-02 00:14:20 linux-ky webserver[135368]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:14:20 linux-ky webserver[135368]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:14:20 linux-ky webserver[135368]: INF Server is running on port 3000
+2025-06-02 00:14:20 linux-ky webserver[135368]: INF Connected to SQLite database.
+2025-06-02 00:14:20 linux-ky webserver[135368]: INF MCP Client connected
+2025-06-02 00:14:23 linux-ky webserver[135368]: INF MCP Client connected
+2025-06-02 00:14:24 linux-ky webserver[135368]: INF MCP Server connected
+2025-06-02 00:14:27 linux-ky webserver[135368]: INF MCP Server connected
+2025-06-02 00:14:32 linux-ky webserver[135368]: INF MCP Server 1 client disconnected
+2025-06-02 00:14:32 linux-ky webserver[135368]: INF MCP Client 1 client disconnected
+2025-06-02 00:15:31 linux-ky webserver[135750]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:15:31 linux-ky webserver[135750]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:15:31 linux-ky webserver[135750]: INF Server is running on port 3000
+2025-06-02 00:15:31 linux-ky webserver[135750]: INF Connected to SQLite database.
+2025-06-02 00:15:42 linux-ky webserver[135750]: INF MCP Client connected
+2025-06-02 00:15:47 linux-ky webserver[135750]: INF MCP Server connected
+2025-06-02 00:15:48 linux-ky webserver[135750]: INF MCP Server 0 client disconnected
+2025-06-02 00:15:48 linux-ky webserver[135750]: INF MCP Client 0 client disconnected
+2025-06-02 00:15:52 linux-ky webserver[135750]: INF MCP Client connected
+2025-06-02 00:15:56 linux-ky webserver[135750]: INF MCP Server connected
+2025-06-02 00:16:14 linux-ky webserver[135750]: INF MCP Server 1 client disconnected
+2025-06-02 00:16:14 linux-ky webserver[135750]: INF MCP Client 1 client disconnected
+2025-06-02 00:19:32 linux-ky webserver[136429]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:19:32 linux-ky webserver[136429]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:19:32 linux-ky webserver[136429]: INF Server is running on port 3000
+2025-06-02 00:19:32 linux-ky webserver[136429]: INF Connected to SQLite database.
+2025-06-02 00:19:32 linux-ky webserver[136429]: INF MCP Client connected
+2025-06-02 00:19:37 linux-ky webserver[136429]: INF MCP Server connected
+2025-06-02 00:19:39 linux-ky webserver[136429]: INF MCP Client connected
+2025-06-02 00:19:44 linux-ky webserver[136429]: INF MCP Server connected
+2025-06-02 00:19:48 linux-ky webserver[136429]: INF MCP Server 1 client disconnected
+2025-06-02 00:19:48 linux-ky webserver[136429]: INF MCP Client 1 client disconnected
+2025-06-02 00:21:08 linux-ky webserver[136870]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:21:08 linux-ky webserver[136870]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:21:08 linux-ky webserver[136870]: INF Server is running on port 3000
+2025-06-02 00:21:08 linux-ky webserver[136870]: INF Connected to SQLite database.
+2025-06-02 00:21:09 linux-ky webserver[136870]: INF MCP Client connected
+2025-06-02 00:21:12 linux-ky webserver[136870]: INF MCP Server connected
+2025-06-02 00:21:32 linux-ky webserver[136870]: INF MCP Client connected
+2025-06-02 00:21:36 linux-ky webserver[136870]: INF MCP Server connected
+2025-06-02 00:21:51 linux-ky webserver[136870]: INF MCP Server 1 client disconnected
+2025-06-02 00:21:51 linux-ky webserver[136870]: INF MCP Client 1 client disconnected
+2025-06-02 00:23:57 linux-ky webserver[137227]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:23:57 linux-ky webserver[137227]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:23:57 linux-ky webserver[137227]: INF Server is running on port 3000
+2025-06-02 00:23:57 linux-ky webserver[137227]: INF Connected to SQLite database.
+2025-06-02 00:23:58 linux-ky webserver[137227]: INF MCP Client connected
+2025-06-02 00:24:02 linux-ky webserver[137227]: INF MCP Server connected
+2025-06-02 00:24:06 linux-ky webserver[137227]: INF MCP Client connected
+2025-06-02 00:24:12 linux-ky webserver[137227]: INF MCP Server connected
+2025-06-02 00:24:22 linux-ky webserver[137227]: INF MCP Server 1 client disconnected
+2025-06-02 00:24:22 linux-ky webserver[137227]: INF MCP Client 1 client disconnected
+2025-06-02 00:27:47 linux-ky webserver[137854]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:27:47 linux-ky webserver[137854]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:27:47 linux-ky webserver[137854]: INF Server is running on port 3000
+2025-06-02 00:27:47 linux-ky webserver[137854]: INF Connected to SQLite database.
+2025-06-02 00:27:48 linux-ky webserver[137854]: INF MCP Client connected
+2025-06-02 00:27:53 linux-ky webserver[137854]: INF MCP Server connected
+2025-06-02 00:27:59 linux-ky webserver[137854]: INF MCP Server 0 client disconnected
+2025-06-02 00:27:59 linux-ky webserver[137854]: INF MCP Client 0 client disconnected
+2025-06-02 00:28:17 linux-ky webserver[138122]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:28:17 linux-ky webserver[138122]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:28:17 linux-ky webserver[138122]: INF Server is running on port 3000
+2025-06-02 00:28:18 linux-ky webserver[138122]: INF Connected to SQLite database.
+2025-06-02 00:28:18 linux-ky webserver[138122]: INF MCP Client connected
+2025-06-02 00:28:23 linux-ky webserver[138122]: INF MCP Server connected
+2025-06-02 00:28:25 linux-ky webserver[138122]: INF MCP Client connected
+2025-06-02 00:28:29 linux-ky webserver[138122]: INF MCP Server connected
+2025-06-02 00:28:39 linux-ky webserver[138122]: INF MCP Server 1 client disconnected
+2025-06-02 00:28:40 linux-ky webserver[138122]: INF MCP Client 1 client disconnected
+2025-06-02 00:29:45 linux-ky webserver[138434]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:29:45 linux-ky webserver[138434]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:29:45 linux-ky webserver[138434]: INF Server is running on port 3000
+2025-06-02 00:29:45 linux-ky webserver[138434]: INF Connected to SQLite database.
+2025-06-02 00:29:45 linux-ky webserver[138434]: INF MCP Client connected
+2025-06-02 00:29:50 linux-ky webserver[138434]: INF MCP Server connected
+2025-06-02 00:29:54 linux-ky webserver[138434]: INF MCP Client connected
+2025-06-02 00:29:58 linux-ky webserver[138434]: INF MCP Server connected
+2025-06-02 00:30:08 linux-ky webserver[138434]: INF MCP Server 1 client disconnected
+2025-06-02 00:30:08 linux-ky webserver[138434]: INF MCP Client 1 client disconnected
+2025-06-02 00:35:39 linux-ky webserver[139041]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:35:39 linux-ky webserver[139041]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:35:39 linux-ky webserver[139041]: INF Server is running on port 3000
+2025-06-02 00:35:39 linux-ky webserver[139041]: INF Connected to SQLite database.
+2025-06-02 00:35:39 linux-ky webserver[139041]: INF MCP Client connected
+2025-06-02 00:35:43 linux-ky webserver[139041]: INF MCP Server connected
+2025-06-02 00:35:48 linux-ky webserver[139041]: INF MCP Client connected
+2025-06-02 00:35:52 linux-ky webserver[139041]: INF MCP Server connected
+2025-06-02 00:37:20 linux-ky webserver[139330]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:37:20 linux-ky webserver[139330]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:37:20 linux-ky webserver[139330]: INF Server is running on port 3000
+2025-06-02 00:37:20 linux-ky webserver[139330]: INF Connected to SQLite database.
+2025-06-02 00:37:21 linux-ky webserver[139330]: INF MCP Client connected
+2025-06-02 00:37:25 linux-ky webserver[139330]: INF MCP Server connected
+2025-06-02 00:38:00 linux-ky webserver[139533]: INF Socket server MCP Server initialization succeeded
+2025-06-02 00:38:00 linux-ky webserver[139533]: INF Socket server MCP Client initialization succeeded
+2025-06-02 00:38:00 linux-ky webserver[139533]: INF Server is running on port 3000
+2025-06-02 00:38:00 linux-ky webserver[139533]: INF Connected to SQLite database.
+2025-06-02 00:38:00 linux-ky webserver[139533]: INF MCP Client connected
+2025-06-02 00:38:04 linux-ky webserver[139533]: INF MCP Server connected
+2025-06-02 13:12:27 linux-ky webserver[172384]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:12:27 linux-ky webserver[172384]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:12:27 linux-ky webserver[172384]: INF Server is running on port 3000
+2025-06-02 13:12:27 linux-ky webserver[172384]: INF Connected to SQLite database.
+2025-06-02 13:12:27 linux-ky webserver[172384]: INF MCP Client connected
+2025-06-02 13:12:31 linux-ky webserver[172384]: INF MCP Server connected
+2025-06-02 13:12:31 linux-ky webserver[172384]: INF User demo@demo.com logged in successfully
+2025-06-02 13:12:41 linux-ky webserver[172384]: INF MCP Server 0 client disconnected
+2025-06-02 13:12:41 linux-ky webserver[172384]: INF MCP Client 0 client disconnected
+2025-06-02 13:13:19 linux-ky webserver[172384]: INF MCP Client connected
+2025-06-02 13:13:23 linux-ky webserver[172384]: INF MCP Server connected
+2025-06-02 13:13:30 linux-ky webserver[172384]: INF MCP Server 1 client disconnected
+2025-06-02 13:13:30 linux-ky webserver[172384]: INF MCP Client 1 client disconnected
+2025-06-02 13:14:03 linux-ky webserver[172987]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:14:03 linux-ky webserver[172987]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:14:03 linux-ky webserver[172987]: INF Server is running on port 3000
+2025-06-02 13:14:03 linux-ky webserver[172987]: INF Connected to SQLite database.
+2025-06-02 13:14:04 linux-ky webserver[172987]: INF MCP Client connected
+2025-06-02 13:14:07 linux-ky webserver[172987]: INF MCP Server connected
+2025-06-02 13:14:45 linux-ky webserver[172987]: INF MCP Client connected
+2025-06-02 13:14:48 linux-ky webserver[172987]: INF MCP Server connected
+2025-06-02 13:14:52 linux-ky webserver[172987]: INF User demo@demo.com logged in successfully
+2025-06-02 13:15:00 linux-ky webserver[172987]: INF MCP Server 1 client disconnected
+2025-06-02 13:15:00 linux-ky webserver[172987]: INF MCP Client 1 client disconnected
+2025-06-02 13:15:19 linux-ky webserver[173308]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:15:19 linux-ky webserver[173308]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:15:19 linux-ky webserver[173308]: INF Server is running on port 3000
+2025-06-02 13:15:19 linux-ky webserver[173308]: INF Connected to SQLite database.
+2025-06-02 13:15:19 linux-ky webserver[173308]: INF MCP Client connected
+2025-06-02 13:15:20 linux-ky webserver[173308]: INF MCP Client connected
+2025-06-02 13:15:23 linux-ky webserver[173308]: INF MCP Server connected
+2025-06-02 13:15:24 linux-ky webserver[173308]: INF MCP Server connected
+2025-06-02 13:21:21 linux-ky webserver[173308]: INF MCP Server 1 client disconnected
+2025-06-02 13:21:21 linux-ky webserver[173308]: INF MCP Client 1 client disconnected
+2025-06-02 13:26:30 linux-ky webserver[174371]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:26:30 linux-ky webserver[174371]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:26:30 linux-ky webserver[174371]: INF Server is running on port 3000
+2025-06-02 13:26:30 linux-ky webserver[174371]: INF Connected to SQLite database.
+2025-06-02 13:26:30 linux-ky webserver[174371]: INF MCP Client connected
+2025-06-02 13:26:34 linux-ky webserver[174371]: INF MCP Server connected
+2025-06-02 13:26:39 linux-ky webserver[174371]: INF MCP Client connected
+2025-06-02 13:26:43 linux-ky webserver[174371]: INF MCP Server connected
+2025-06-02 13:26:49 linux-ky webserver[174371]: INF User demo@demo.com logged in successfully
+2025-06-02 13:29:47 linux-ky webserver[174950]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:29:47 linux-ky webserver[174950]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:29:47 linux-ky webserver[174950]: INF Server is running on port 3000
+2025-06-02 13:29:47 linux-ky webserver[174950]: INF Connected to SQLite database.
+2025-06-02 13:29:48 linux-ky webserver[174950]: INF MCP Client connected
+2025-06-02 13:29:52 linux-ky webserver[174950]: INF MCP Server connected
+2025-06-02 13:33:22 linux-ky webserver[175442]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:33:22 linux-ky webserver[175442]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:33:22 linux-ky webserver[175442]: INF Server is running on port 3000
+2025-06-02 13:33:22 linux-ky webserver[175442]: INF Connected to SQLite database.
+2025-06-02 13:33:23 linux-ky webserver[175442]: INF MCP Client connected
+2025-06-02 13:33:27 linux-ky webserver[175442]: INF MCP Server connected
+2025-06-02 13:34:37 linux-ky webserver[175442]: INF MCP Server 0 client disconnected
+2025-06-02 13:34:37 linux-ky webserver[175442]: INF MCP Client 0 client disconnected
+2025-06-02 13:34:55 linux-ky webserver[175848]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:34:55 linux-ky webserver[175848]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:34:55 linux-ky webserver[175848]: INF Server is running on port 3000
+2025-06-02 13:34:55 linux-ky webserver[175848]: INF Connected to SQLite database.
+2025-06-02 13:34:56 linux-ky webserver[175848]: INF MCP Client connected
+2025-06-02 13:35:00 linux-ky webserver[175848]: INF MCP Server connected
+2025-06-02 13:36:35 linux-ky webserver[175848]: INF MCP Server 0 client disconnected
+2025-06-02 13:36:35 linux-ky webserver[175848]: INF MCP Client 0 client disconnected
+2025-06-02 13:36:50 linux-ky webserver[176225]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:36:50 linux-ky webserver[176225]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:36:50 linux-ky webserver[176225]: INF Server is running on port 3000
+2025-06-02 13:36:50 linux-ky webserver[176225]: INF Connected to SQLite database.
+2025-06-02 13:36:51 linux-ky webserver[176225]: INF MCP Client connected
+2025-06-02 13:36:55 linux-ky webserver[176225]: INF MCP Server connected
+2025-06-02 13:38:38 linux-ky webserver[176536]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:38:38 linux-ky webserver[176536]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:38:38 linux-ky webserver[176536]: INF Server is running on port 3000
+2025-06-02 13:38:38 linux-ky webserver[176536]: INF Connected to SQLite database.
+2025-06-02 13:38:39 linux-ky webserver[176536]: INF MCP Client connected
+2025-06-02 13:38:42 linux-ky webserver[176536]: INF MCP Server connected
+2025-06-02 13:39:17 linux-ky webserver[176536]: INF 1 exited
+2025-06-02 13:39:55 linux-ky webserver[176536]: INF 1 exited
+2025-06-02 13:40:41 linux-ky webserver[176536]: INF MCP Client connected
+2025-06-02 13:40:44 linux-ky webserver[176536]: INF MCP Server connected
+2025-06-02 13:40:47 linux-ky webserver[176536]: INF MCP Server 1 client disconnected
+2025-06-02 13:40:47 linux-ky webserver[176536]: INF MCP Client 1 client disconnected
+2025-06-02 13:42:03 linux-ky webserver[177170]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:42:03 linux-ky webserver[177170]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:42:03 linux-ky webserver[177170]: INF Server is running on port 3000
+2025-06-02 13:42:03 linux-ky webserver[177170]: INF Connected to SQLite database.
+2025-06-02 13:42:04 linux-ky webserver[177170]: INF MCP Client connected
+2025-06-02 13:42:07 linux-ky webserver[177170]: INF MCP Server connected
+2025-06-02 13:42:14 linux-ky webserver[177170]: INF MCP Client connected
+2025-06-02 13:42:18 linux-ky webserver[177170]: INF MCP Server connected
+2025-06-02 13:42:29 linux-ky webserver[177170]: INF MCP Server 1 client disconnected
+2025-06-02 13:42:29 linux-ky webserver[177170]: INF MCP Client 1 client disconnected
+2025-06-02 13:42:36 linux-ky webserver[177170]: INF MCP Client connected
+2025-06-02 13:42:40 linux-ky webserver[177170]: INF MCP Server connected
+2025-06-02 13:43:11 linux-ky webserver[177656]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:43:11 linux-ky webserver[177656]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:43:11 linux-ky webserver[177656]: INF Server is running on port 3000
+2025-06-02 13:43:11 linux-ky webserver[177656]: INF Connected to SQLite database.
+2025-06-02 13:43:11 linux-ky webserver[177656]: INF MCP Client connected
+2025-06-02 13:43:15 linux-ky webserver[177656]: INF MCP Server connected
+2025-06-02 13:43:21 linux-ky webserver[177656]: INF MCP Client connected
+2025-06-02 13:43:25 linux-ky webserver[177656]: INF MCP Server connected
+2025-06-02 13:43:59 linux-ky webserver[177656]: INF MCP Server 1 client disconnected
+2025-06-02 13:44:00 linux-ky webserver[177656]: INF MCP Client 1 client disconnected
+2025-06-02 13:49:02 linux-ky webserver[178476]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:49:02 linux-ky webserver[178476]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:49:02 linux-ky webserver[178476]: INF Server is running on port 3000
+2025-06-02 13:49:02 linux-ky webserver[178476]: INF Connected to SQLite database.
+2025-06-02 13:49:02 linux-ky webserver[178476]: INF MCP Client connected
+2025-06-02 13:49:06 linux-ky webserver[178476]: INF MCP Server connected
+2025-06-02 13:49:10 linux-ky webserver[178476]: INF MCP Client connected
+2025-06-02 13:49:14 linux-ky webserver[178476]: INF MCP Server connected
+2025-06-02 13:49:40 linux-ky webserver[178476]: INF MCP Server 1 client disconnected
+2025-06-02 13:49:40 linux-ky webserver[178476]: INF MCP Client 1 client disconnected
+2025-06-02 13:50:51 linux-ky webserver[179002]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:50:51 linux-ky webserver[179002]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:50:51 linux-ky webserver[179002]: INF Server is running on port 3000
+2025-06-02 13:50:51 linux-ky webserver[179002]: INF Connected to SQLite database.
+2025-06-02 13:50:51 linux-ky webserver[179002]: INF MCP Client connected
+2025-06-02 13:50:54 linux-ky webserver[179002]: INF MCP Server connected
+2025-06-02 13:50:59 linux-ky webserver[179002]: INF MCP Client connected
+2025-06-02 13:51:03 linux-ky webserver[179002]: INF MCP Server connected
+2025-06-02 13:51:19 linux-ky webserver[179002]: INF User demo@demo.com logged in successfully
+2025-06-02 13:51:25 linux-ky webserver[179002]: INF MCP Server 1 client disconnected
+2025-06-02 13:51:25 linux-ky webserver[179002]: INF MCP Client 1 client disconnected
+2025-06-02 13:52:45 linux-ky webserver[179430]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:52:45 linux-ky webserver[179430]: INF Server is running on port 3000
+2025-06-02 13:52:45 linux-ky webserver[179430]: INF Connected to SQLite database.
+2025-06-02 13:52:45 linux-ky webserver[179430]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:52:46 linux-ky webserver[179430]: INF MCP Client connected
+2025-06-02 13:52:50 linux-ky webserver[179430]: INF MCP Server connected
+2025-06-02 13:52:52 linux-ky webserver[179430]: INF User demo@demo.com logged in successfully
+2025-06-02 13:52:56 linux-ky webserver[179430]: INF MCP Client connected
+2025-06-02 13:53:00 linux-ky webserver[179430]: INF MCP Server connected
+2025-06-02 13:53:02 linux-ky webserver[179430]: INF MCP Server 1 client disconnected
+2025-06-02 13:53:02 linux-ky webserver[179430]: INF MCP Client 1 client disconnected
+2025-06-02 13:55:48 linux-ky webserver[179955]: INF Socket server MCP Server initialization succeeded
+2025-06-02 13:55:48 linux-ky webserver[179955]: INF Socket server MCP Client initialization succeeded
+2025-06-02 13:55:48 linux-ky webserver[179955]: INF Server is running on port 3000
+2025-06-02 13:55:48 linux-ky webserver[179955]: INF Connected to SQLite database.
+2025-06-02 13:55:48 linux-ky webserver[179955]: INF MCP Client connected
+2025-06-02 13:55:52 linux-ky webserver[179955]: INF MCP Server connected
+2025-06-02 13:56:07 linux-ky webserver[179955]: INF MCP Client connected
+2025-06-02 13:56:11 linux-ky webserver[179955]: INF MCP Server connected
+2025-06-02 13:56:36 linux-ky webserver[179955]: INF MCP Server 1 client disconnected
+2025-06-02 13:56:36 linux-ky webserver[179955]: INF MCP Client 1 client disconnected
+2025-06-02 14:02:30 linux-ky webserver[181790]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:02:30 linux-ky webserver[181790]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:02:30 linux-ky webserver[181790]: INF Server is running on port 3000
+2025-06-02 14:02:30 linux-ky webserver[181790]: INF Connected to SQLite database.
+2025-06-02 14:02:30 linux-ky webserver[181790]: INF MCP Client connected
+2025-06-02 14:02:34 linux-ky webserver[181790]: INF MCP Server connected
+2025-06-02 14:02:48 linux-ky webserver[181790]: INF MCP Client connected
+2025-06-02 14:02:51 linux-ky webserver[181790]: INF MCP Server connected
+2025-06-02 14:03:03 linux-ky webserver[181790]: INF User demo@demo.com logged in successfully
+2025-06-02 14:03:25 linux-ky webserver[181790]: INF MCP Server 1 client disconnected
+2025-06-02 14:03:25 linux-ky webserver[181790]: INF MCP Client 1 client disconnected
+2025-06-02 14:04:46 linux-ky webserver[182309]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:04:46 linux-ky webserver[182309]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:04:46 linux-ky webserver[182309]: INF Server is running on port 3000
+2025-06-02 14:04:46 linux-ky webserver[182309]: INF Connected to SQLite database.
+2025-06-02 14:04:47 linux-ky webserver[182309]: INF MCP Client connected
+2025-06-02 14:04:51 linux-ky webserver[182309]: INF MCP Server connected
+2025-06-02 14:04:54 linux-ky webserver[182309]: INF MCP Client connected
+2025-06-02 14:04:58 linux-ky webserver[182309]: INF MCP Server connected
+2025-06-02 14:05:44 linux-ky webserver[182309]: INF MCP Server 1 client disconnected
+2025-06-02 14:05:45 linux-ky webserver[182309]: INF MCP Client 1 client disconnected
+2025-06-02 14:07:44 linux-ky webserver[182814]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:07:44 linux-ky webserver[182814]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:07:44 linux-ky webserver[182814]: INF Server is running on port 3000
+2025-06-02 14:07:44 linux-ky webserver[182814]: INF Connected to SQLite database.
+2025-06-02 14:07:44 linux-ky webserver[182814]: INF MCP Client connected
+2025-06-02 14:07:48 linux-ky webserver[182814]: INF MCP Server connected
+2025-06-02 14:07:50 linux-ky webserver[182814]: INF MCP Client connected
+2025-06-02 14:07:54 linux-ky webserver[182814]: INF MCP Server connected
+2025-06-02 14:08:18 linux-ky webserver[182814]: INF MCP Server 1 client disconnected
+2025-06-02 14:08:18 linux-ky webserver[182814]: INF MCP Client 1 client disconnected
+2025-06-02 14:09:34 linux-ky webserver[183239]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:09:34 linux-ky webserver[183239]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:09:34 linux-ky webserver[183239]: INF Server is running on port 3000
+2025-06-02 14:09:34 linux-ky webserver[183239]: INF Connected to SQLite database.
+2025-06-02 14:09:34 linux-ky webserver[183239]: INF MCP Client connected
+2025-06-02 14:09:38 linux-ky webserver[183239]: INF MCP Server connected
+2025-06-02 14:09:42 linux-ky webserver[183239]: INF MCP Client connected
+2025-06-02 14:09:46 linux-ky webserver[183239]: INF MCP Server connected
+2025-06-02 14:10:00 linux-ky webserver[183239]: INF MCP Server 1 client disconnected
+2025-06-02 14:10:01 linux-ky webserver[183239]: INF MCP Client 1 client disconnected
+2025-06-02 14:17:46 linux-ky webserver[183993]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:17:46 linux-ky webserver[183993]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:17:46 linux-ky webserver[183993]: INF Server is running on port 3000
+2025-06-02 14:17:46 linux-ky webserver[183993]: INF Connected to SQLite database.
+2025-06-02 14:17:46 linux-ky webserver[183993]: INF MCP Client connected
+2025-06-02 14:17:50 linux-ky webserver[183993]: INF MCP Server connected
+2025-06-02 14:17:53 linux-ky webserver[183993]: INF MCP Server 0 client disconnected
+2025-06-02 14:17:53 linux-ky webserver[183993]: INF MCP Client 0 client disconnected
+2025-06-02 14:19:05 linux-ky webserver[183993]: INF MCP Client connected
+2025-06-02 14:19:09 linux-ky webserver[183993]: INF MCP Server connected
+2025-06-02 14:19:22 linux-ky webserver[183993]: INF MCP Server 1 client disconnected
+2025-06-02 14:19:22 linux-ky webserver[183993]: INF MCP Client 1 client disconnected
+2025-06-02 14:19:52 linux-ky webserver[184708]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:19:52 linux-ky webserver[184708]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:19:52 linux-ky webserver[184708]: INF Server is running on port 3000
+2025-06-02 14:19:52 linux-ky webserver[184708]: INF Connected to SQLite database.
+2025-06-02 14:19:53 linux-ky webserver[184708]: INF MCP Client connected
+2025-06-02 14:19:57 linux-ky webserver[184708]: INF MCP Server connected
+2025-06-02 14:19:59 linux-ky webserver[184708]: INF MCP Client connected
+2025-06-02 14:20:03 linux-ky webserver[184708]: INF MCP Server connected
+2025-06-02 14:20:21 linux-ky webserver[184708]: INF MCP Server 1 client disconnected
+2025-06-02 14:20:22 linux-ky webserver[184708]: INF MCP Client 1 client disconnected
+2025-06-02 14:22:56 linux-ky webserver[185241]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:22:56 linux-ky webserver[185241]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:22:56 linux-ky webserver[185241]: INF Server is running on port 3000
+2025-06-02 14:22:56 linux-ky webserver[185241]: INF Connected to SQLite database.
+2025-06-02 14:22:56 linux-ky webserver[185241]: INF MCP Client connected
+2025-06-02 14:23:01 linux-ky webserver[185241]: INF MCP Server connected
+2025-06-02 14:23:06 linux-ky webserver[185241]: INF MCP Client connected
+2025-06-02 14:23:09 linux-ky webserver[185241]: INF MCP Server connected
+2025-06-02 14:23:21 linux-ky webserver[185241]: INF MCP Server 1 client disconnected
+2025-06-02 14:23:22 linux-ky webserver[185241]: INF MCP Client 1 client disconnected
+2025-06-02 14:24:48 linux-ky webserver[185241]: INF MCP Server connected
+2025-06-02 14:25:06 linux-ky webserver[185241]: INF MCP Server connected
+2025-06-02 14:25:06 linux-ky webserver[185241]: INF MCP Server 3 client disconnected
+2025-06-02 14:25:19 linux-ky webserver[185241]: INF MCP Server 2 client disconnected
+2025-06-02 14:25:24 linux-ky webserver[185241]: INF MCP Server connected
+2025-06-02 14:25:46 linux-ky webserver[185241]: INF MCP Server connected
+2025-06-02 14:27:26 linux-ky webserver[186453]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:27:26 linux-ky webserver[186453]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:27:26 linux-ky webserver[186453]: INF Server is running on port 3000
+2025-06-02 14:27:26 linux-ky webserver[186453]: INF Connected to SQLite database.
+2025-06-02 14:27:26 linux-ky webserver[186453]: INF MCP Client connected
+2025-06-02 14:27:31 linux-ky webserver[186453]: INF MCP Server connected
+2025-06-02 14:27:33 linux-ky webserver[186453]: INF MCP Client connected
+2025-06-02 14:27:37 linux-ky webserver[186453]: INF MCP Server connected
+2025-06-02 14:27:42 linux-ky webserver[186453]: INF MCP Server 1 client disconnected
+2025-06-02 14:27:42 linux-ky webserver[186453]: INF MCP Client 1 client disconnected
+2025-06-02 14:32:51 linux-ky webserver[187571]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:32:51 linux-ky webserver[187571]: INF Connected to SQLite database.
+2025-06-02 14:32:51 linux-ky webserver[187571]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:32:51 linux-ky webserver[187571]: INF Server is running on port 3000
+2025-06-02 14:32:52 linux-ky webserver[187571]: INF MCP Client connected
+2025-06-02 14:32:56 linux-ky webserver[187571]: INF MCP Server connected
+2025-06-02 14:33:10 linux-ky webserver[187811]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:33:10 linux-ky webserver[187811]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:33:10 linux-ky webserver[187811]: INF Server is running on port 3000
+2025-06-02 14:33:10 linux-ky webserver[187811]: INF Connected to SQLite database.
+2025-06-02 14:33:11 linux-ky webserver[187811]: INF MCP Client connected
+2025-06-02 14:33:15 linux-ky webserver[187811]: INF MCP Server connected
+2025-06-02 14:34:37 linux-ky webserver[187811]: INF MCP Client connected
+2025-06-02 14:34:41 linux-ky webserver[187811]: INF MCP Server connected
+2025-06-02 14:34:52 linux-ky webserver[187811]: INF MCP Server 1 client disconnected
+2025-06-02 14:34:52 linux-ky webserver[187811]: INF MCP Client 1 client disconnected
+2025-06-02 14:36:36 linux-ky webserver[187811]: INF MCP Server connected
+2025-06-02 14:36:57 linux-ky webserver[187811]: INF MCP Server connected
+2025-06-02 14:37:28 linux-ky webserver[187811]: INF MCP Server 3 client disconnected
+2025-06-02 14:37:32 linux-ky webserver[187811]: INF MCP Server 2 client disconnected
+2025-06-02 14:37:36 linux-ky webserver[187811]: INF MCP Client connected
+2025-06-02 14:37:40 linux-ky webserver[187811]: INF MCP Server connected
+2025-06-02 14:37:40 linux-ky webserver[187811]: INF 1 exited
+2025-06-02 14:37:53 linux-ky webserver[189286]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:37:53 linux-ky webserver[189286]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:37:53 linux-ky webserver[189286]: INF Server is running on port 3000
+2025-06-02 14:37:53 linux-ky webserver[189286]: INF Connected to SQLite database.
+2025-06-02 14:37:54 linux-ky webserver[189286]: INF MCP Client connected
+2025-06-02 14:37:57 linux-ky webserver[189286]: INF MCP Server connected
+2025-06-02 14:38:13 linux-ky webserver[189286]: INF MCP Client connected
+2025-06-02 14:38:16 linux-ky webserver[189286]: INF MCP Server connected
+2025-06-02 14:38:33 linux-ky webserver[189286]: INF MCP Server 1 client disconnected
+2025-06-02 14:38:33 linux-ky webserver[189286]: INF MCP Client 1 client disconnected
+2025-06-02 14:44:35 linux-ky webserver[190128]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:44:35 linux-ky webserver[190128]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:44:35 linux-ky webserver[190128]: INF Server is running on port 3000
+2025-06-02 14:44:35 linux-ky webserver[190128]: INF Connected to SQLite database.
+2025-06-02 14:44:35 linux-ky webserver[190128]: INF MCP Client connected
+2025-06-02 14:44:40 linux-ky webserver[190128]: INF MCP Server connected
+2025-06-02 14:44:48 linux-ky webserver[190310]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:44:48 linux-ky webserver[190310]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:44:48 linux-ky webserver[190310]: INF Server is running on port 3000
+2025-06-02 14:44:48 linux-ky webserver[190310]: INF Connected to SQLite database.
+2025-06-02 14:44:48 linux-ky webserver[190310]: INF MCP Client connected
+2025-06-02 14:44:52 linux-ky webserver[190310]: INF MCP Server connected
+2025-06-02 14:45:05 linux-ky webserver[190310]: INF MCP Server 0 client disconnected
+2025-06-02 14:45:05 linux-ky webserver[190310]: INF MCP Client 0 client disconnected
+2025-06-02 14:45:50 linux-ky webserver[190569]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:45:50 linux-ky webserver[190569]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:45:50 linux-ky webserver[190569]: INF Server is running on port 3000
+2025-06-02 14:45:50 linux-ky webserver[190569]: INF Connected to SQLite database.
+2025-06-02 14:47:16 linux-ky webserver[190835]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:47:16 linux-ky webserver[190835]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:47:16 linux-ky webserver[190835]: INF Server is running on port 3000
+2025-06-02 14:47:16 linux-ky webserver[190835]: INF Connected to SQLite database.
+2025-06-02 14:47:16 linux-ky webserver[190835]: INF MCP Client connected
+2025-06-02 14:47:20 linux-ky webserver[190835]: INF MCP Server connected
+2025-06-02 14:47:36 linux-ky webserver[190979]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:47:36 linux-ky webserver[190979]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:47:36 linux-ky webserver[190979]: INF Server is running on port 3000
+2025-06-02 14:47:36 linux-ky webserver[190979]: INF Connected to SQLite database.
+2025-06-02 14:47:36 linux-ky webserver[190979]: INF MCP Client connected
+2025-06-02 14:47:40 linux-ky webserver[190979]: INF MCP Server connected
+2025-06-02 14:47:47 linux-ky webserver[190979]: INF MCP Client connected
+2025-06-02 14:47:50 linux-ky webserver[190979]: INF MCP Server connected
+2025-06-02 14:48:08 linux-ky webserver[190979]: INF MCP Server 1 client disconnected
+2025-06-02 14:48:08 linux-ky webserver[190979]: INF MCP Client 1 client disconnected
+2025-06-02 14:50:30 linux-ky webserver[191381]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:50:30 linux-ky webserver[191381]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:50:30 linux-ky webserver[191381]: INF Server is running on port 3000
+2025-06-02 14:50:30 linux-ky webserver[191381]: INF Connected to SQLite database.
+2025-06-02 14:50:31 linux-ky webserver[191381]: INF MCP Client connected
+2025-06-02 14:50:34 linux-ky webserver[191381]: INF MCP Server connected
+2025-06-02 14:50:39 linux-ky webserver[191381]: INF MCP Client connected
+2025-06-02 14:50:43 linux-ky webserver[191381]: INF MCP Server connected
+2025-06-02 14:50:50 linux-ky webserver[191381]: INF MCP Server 1 client disconnected
+2025-06-02 14:50:50 linux-ky webserver[191381]: INF MCP Client 1 client disconnected
+2025-06-02 14:51:24 linux-ky webserver[191381]: INF MCP Client connected
+2025-06-02 14:51:33 linux-ky webserver[191958]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:51:33 linux-ky webserver[191958]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:51:33 linux-ky webserver[191958]: INF Server is running on port 3000
+2025-06-02 14:51:33 linux-ky webserver[191958]: INF Connected to SQLite database.
+2025-06-02 14:51:34 linux-ky webserver[191958]: INF MCP Client connected
+2025-06-02 14:51:37 linux-ky webserver[191958]: INF MCP Client connected
+2025-06-02 14:51:38 linux-ky webserver[191958]: INF MCP Server connected
+2025-06-02 14:51:41 linux-ky webserver[191958]: INF MCP Server connected
+2025-06-02 14:51:46 linux-ky webserver[191958]: INF MCP Server 1 client disconnected
+2025-06-02 14:51:46 linux-ky webserver[191958]: INF MCP Client 1 client disconnected
+2025-06-02 14:55:49 linux-ky webserver[192680]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:55:49 linux-ky webserver[192680]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:55:49 linux-ky webserver[192680]: INF Server is running on port 3000
+2025-06-02 14:55:49 linux-ky webserver[192680]: INF Connected to SQLite database.
+2025-06-02 14:55:49 linux-ky webserver[192680]: INF MCP Client connected
+2025-06-02 14:55:53 linux-ky webserver[192680]: INF MCP Server connected
+2025-06-02 14:55:58 linux-ky webserver[192680]: INF MCP Client connected
+2025-06-02 14:56:03 linux-ky webserver[192680]: INF MCP Server connected
+2025-06-02 14:56:14 linux-ky webserver[192680]: INF MCP Server 1 client disconnected
+2025-06-02 14:56:14 linux-ky webserver[192680]: INF MCP Client 1 client disconnected
+2025-06-02 14:57:16 linux-ky webserver[193205]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:57:16 linux-ky webserver[193205]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:57:16 linux-ky webserver[193205]: INF Server is running on port 3000
+2025-06-02 14:57:16 linux-ky webserver[193205]: INF Connected to SQLite database.
+2025-06-02 14:57:17 linux-ky webserver[193205]: INF MCP Client connected
+2025-06-02 14:57:21 linux-ky webserver[193205]: INF MCP Server connected
+2025-06-02 14:57:29 linux-ky webserver[193205]: INF MCP Client connected
+2025-06-02 14:57:33 linux-ky webserver[193205]: INF MCP Server connected
+2025-06-02 14:57:43 linux-ky webserver[193205]: INF MCP Server 1 client disconnected
+2025-06-02 14:57:44 linux-ky webserver[193205]: INF MCP Client 1 client disconnected
+2025-06-02 14:58:38 linux-ky webserver[193538]: INF Socket server MCP Server initialization succeeded
+2025-06-02 14:58:38 linux-ky webserver[193538]: INF Socket server MCP Client initialization succeeded
+2025-06-02 14:58:38 linux-ky webserver[193538]: INF Server is running on port 3000
+2025-06-02 14:58:38 linux-ky webserver[193538]: INF Connected to SQLite database.
+2025-06-02 14:58:39 linux-ky webserver[193538]: INF MCP Client connected
+2025-06-02 14:58:42 linux-ky webserver[193538]: INF MCP Server connected
+2025-06-02 14:58:49 linux-ky webserver[193538]: INF MCP Client connected
+2025-06-02 14:58:52 linux-ky webserver[193538]: INF MCP Server connected
+2025-06-02 14:58:59 linux-ky webserver[193538]: INF MCP Server 1 client disconnected
+2025-06-02 14:58:59 linux-ky webserver[193538]: INF MCP Client 1 client disconnected
+2025-06-02 15:00:09 linux-ky webserver[193961]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:00:09 linux-ky webserver[193961]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:00:09 linux-ky webserver[193961]: INF Server is running on port 3000
+2025-06-02 15:00:09 linux-ky webserver[193961]: INF Connected to SQLite database.
+2025-06-02 15:00:09 linux-ky webserver[193961]: INF MCP Client connected
+2025-06-02 15:00:13 linux-ky webserver[193961]: INF MCP Server connected
+2025-06-02 15:00:17 linux-ky webserver[193961]: INF MCP Client connected
+2025-06-02 15:00:21 linux-ky webserver[193961]: INF MCP Server connected
+2025-06-02 15:00:25 linux-ky webserver[193961]: INF MCP Server 1 client disconnected
+2025-06-02 15:00:25 linux-ky webserver[193961]: INF MCP Client 1 client disconnected
+2025-06-02 15:03:20 linux-ky webserver[194415]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:03:20 linux-ky webserver[194415]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:03:20 linux-ky webserver[194415]: INF Server is running on port 3000
+2025-06-02 15:03:20 linux-ky webserver[194415]: INF Connected to SQLite database.
+2025-06-02 15:03:21 linux-ky webserver[194415]: INF MCP Client connected
+2025-06-02 15:03:24 linux-ky webserver[194415]: INF MCP Client connected
+2025-06-02 15:03:26 linux-ky webserver[194415]: INF MCP Server connected
+2025-06-02 15:03:28 linux-ky webserver[194415]: INF MCP Server connected
+2025-06-02 15:03:36 linux-ky webserver[194415]: INF MCP Server 1 client disconnected
+2025-06-02 15:03:36 linux-ky webserver[194415]: INF MCP Client 1 client disconnected
+2025-06-02 15:04:15 linux-ky webserver[194748]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:04:15 linux-ky webserver[194748]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:04:15 linux-ky webserver[194748]: INF Server is running on port 3000
+2025-06-02 15:04:15 linux-ky webserver[194748]: INF Connected to SQLite database.
+2025-06-02 15:04:16 linux-ky webserver[194748]: INF MCP Client connected
+2025-06-02 15:04:21 linux-ky webserver[194748]: INF MCP Server connected
+2025-06-02 15:04:27 linux-ky webserver[194895]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:04:27 linux-ky webserver[194895]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:04:27 linux-ky webserver[194895]: INF Server is running on port 3000
+2025-06-02 15:04:27 linux-ky webserver[194895]: INF Connected to SQLite database.
+2025-06-02 15:04:27 linux-ky webserver[194895]: INF MCP Client connected
+2025-06-02 15:04:30 linux-ky webserver[194895]: INF MCP Server connected
+2025-06-02 15:04:37 linux-ky webserver[194895]: INF MCP Client connected
+2025-06-02 15:04:41 linux-ky webserver[194895]: INF MCP Server connected
+2025-06-02 15:04:47 linux-ky webserver[194895]: INF MCP Server 1 client disconnected
+2025-06-02 15:04:47 linux-ky webserver[194895]: INF MCP Client 1 client disconnected
+2025-06-02 15:06:18 linux-ky webserver[195241]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:06:18 linux-ky webserver[195241]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:06:18 linux-ky webserver[195241]: INF Server is running on port 3000
+2025-06-02 15:06:18 linux-ky webserver[195241]: INF Connected to SQLite database.
+2025-06-02 15:06:19 linux-ky webserver[195241]: INF MCP Client connected
+2025-06-02 15:06:23 linux-ky webserver[195241]: INF MCP Server connected
+2025-06-02 15:06:32 linux-ky webserver[195241]: INF MCP Client connected
+2025-06-02 15:06:35 linux-ky webserver[195241]: INF MCP Server connected
+2025-06-02 15:06:45 linux-ky webserver[195241]: INF MCP Server 1 client disconnected
+2025-06-02 15:06:45 linux-ky webserver[195241]: INF MCP Client 1 client disconnected
+2025-06-02 15:09:16 linux-ky webserver[195694]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:09:16 linux-ky webserver[195694]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:09:16 linux-ky webserver[195694]: INF Server is running on port 3000
+2025-06-02 15:09:16 linux-ky webserver[195694]: INF Connected to SQLite database.
+2025-06-02 15:09:17 linux-ky webserver[195694]: INF MCP Client connected
+2025-06-02 15:09:21 linux-ky webserver[195694]: INF MCP Server connected
+2025-06-02 15:09:26 linux-ky webserver[195694]: INF MCP Client connected
+2025-06-02 15:09:30 linux-ky webserver[195694]: INF MCP Server connected
+2025-06-02 15:10:23 linux-ky webserver[195694]: INF MCP Server 1 client disconnected
+2025-06-02 15:10:23 linux-ky webserver[195694]: INF MCP Client 1 client disconnected
+2025-06-02 15:12:37 linux-ky webserver[196622]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:12:37 linux-ky webserver[196622]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:12:37 linux-ky webserver[196622]: INF Server is running on port 3000
+2025-06-02 15:12:37 linux-ky webserver[196622]: INF Connected to SQLite database.
+2025-06-02 15:12:37 linux-ky webserver[196622]: INF MCP Client connected
+2025-06-02 15:12:42 linux-ky webserver[196622]: INF MCP Server connected
+2025-06-02 15:13:01 linux-ky webserver[196622]: INF MCP Server 0 client disconnected
+2025-06-02 15:13:01 linux-ky webserver[196622]: INF MCP Client 0 client disconnected
+2025-06-02 15:13:16 linux-ky webserver[197007]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:13:16 linux-ky webserver[197007]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:13:16 linux-ky webserver[197007]: INF Server is running on port 3000
+2025-06-02 15:13:16 linux-ky webserver[197007]: INF Connected to SQLite database.
+2025-06-02 15:13:17 linux-ky webserver[197007]: INF MCP Client connected
+2025-06-02 15:13:21 linux-ky webserver[197007]: INF MCP Server connected
+2025-06-02 15:13:21 linux-ky webserver[197007]: INF MCP Client connected
+2025-06-02 15:13:25 linux-ky webserver[197007]: INF MCP Server connected
+2025-06-02 15:13:32 linux-ky webserver[197007]: INF MCP Server 1 client disconnected
+2025-06-02 15:13:32 linux-ky webserver[197007]: INF MCP Client 1 client disconnected
+2025-06-02 15:17:17 linux-ky webserver[197674]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:17:17 linux-ky webserver[197674]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:17:17 linux-ky webserver[197674]: INF Server is running on port 3000
+2025-06-02 15:17:17 linux-ky webserver[197674]: INF Connected to SQLite database.
+2025-06-02 15:17:17 linux-ky webserver[197674]: INF MCP Client connected
+2025-06-02 15:17:22 linux-ky webserver[197674]: INF MCP Server connected
+2025-06-02 15:17:23 linux-ky webserver[197674]: INF MCP Client connected
+2025-06-02 15:17:28 linux-ky webserver[197674]: INF MCP Server connected
+2025-06-02 15:17:31 linux-ky webserver[197674]: INF MCP Server 1 client disconnected
+2025-06-02 15:17:32 linux-ky webserver[197674]: INF MCP Client 1 client disconnected
+2025-06-02 15:18:49 linux-ky webserver[197674]: INF MCP Server connected
+2025-06-02 15:19:02 linux-ky webserver[197674]: INF MCP Server connected
+2025-06-02 15:22:09 linux-ky webserver[198701]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:22:09 linux-ky webserver[198701]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:22:09 linux-ky webserver[198701]: INF Server is running on port 3000
+2025-06-02 15:22:09 linux-ky webserver[198701]: INF Connected to SQLite database.
+2025-06-02 15:22:09 linux-ky webserver[198701]: INF MCP Client connected
+2025-06-02 15:22:29 linux-ky webserver[199016]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:22:29 linux-ky webserver[199016]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:22:29 linux-ky webserver[199016]: INF Server is running on port 3000
+2025-06-02 15:22:29 linux-ky webserver[199016]: INF Connected to SQLite database.
+2025-06-02 15:22:29 linux-ky webserver[199016]: INF MCP Client connected
+2025-06-02 15:22:32 linux-ky webserver[199016]: INF MCP Server connected
+2025-06-02 15:22:33 linux-ky webserver[199016]: INF MCP Server connected
+2025-06-02 15:22:40 linux-ky webserver[199016]: INF MCP Server connected
+2025-06-02 15:23:07 linux-ky webserver[199016]: INF MCP Server 2 client disconnected
+2025-06-02 15:23:13 linux-ky webserver[199016]: INF MCP Server connected
+2025-06-02 15:23:40 linux-ky webserver[199016]: INF MCP Server 0 client disconnected
+2025-06-02 15:23:40 linux-ky webserver[199016]: INF MCP Server 3 client disconnected
+2025-06-02 15:23:50 linux-ky webserver[199590]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:23:50 linux-ky webserver[199590]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:23:50 linux-ky webserver[199590]: INF Server is running on port 3000
+2025-06-02 15:23:50 linux-ky webserver[199590]: INF Connected to SQLite database.
+2025-06-02 15:23:51 linux-ky webserver[199590]: INF MCP Client connected
+2025-06-02 15:23:56 linux-ky webserver[199590]: INF MCP Server connected
+2025-06-02 15:24:17 linux-ky webserver[199590]: INF MCP Client connected
+2025-06-02 15:24:21 linux-ky webserver[199590]: INF MCP Server connected
+2025-06-02 15:26:33 linux-ky webserver[200033]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:26:33 linux-ky webserver[200033]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:26:33 linux-ky webserver[200033]: INF Server is running on port 3000
+2025-06-02 15:26:33 linux-ky webserver[200033]: INF Connected to SQLite database.
+2025-06-02 15:26:34 linux-ky webserver[200033]: INF MCP Client connected
+2025-06-02 15:26:38 linux-ky webserver[200033]: INF MCP Server connected
+2025-06-02 15:27:23 linux-ky webserver[200310]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:27:23 linux-ky webserver[200310]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:27:23 linux-ky webserver[200310]: INF Server is running on port 3000
+2025-06-02 15:27:23 linux-ky webserver[200310]: INF Connected to SQLite database.
+2025-06-02 15:27:24 linux-ky webserver[200310]: INF MCP Client connected
+2025-06-02 15:27:28 linux-ky webserver[200310]: INF MCP Server connected
+2025-06-02 15:31:49 linux-ky webserver[200310]: INF User demo@demo.com logged in successfully
+2025-06-02 15:35:09 linux-ky webserver[200990]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:35:09 linux-ky webserver[200990]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:35:09 linux-ky webserver[200990]: INF Server is running on port 3000
+2025-06-02 15:35:09 linux-ky webserver[200990]: INF Connected to SQLite database.
+2025-06-02 15:35:09 linux-ky webserver[200990]: INF MCP Client connected
+2025-06-02 15:35:13 linux-ky webserver[200990]: INF MCP Server connected
+2025-06-02 15:35:15 linux-ky webserver[200990]: INF User demo@demo.com logged in successfully
+2025-06-02 15:38:37 linux-ky webserver[200990]: INF 1 exited
+2025-06-02 15:41:02 linux-ky webserver[200990]: INF User demo@demo.com logged in successfully
+2025-06-02 15:41:05 linux-ky webserver[200990]: INF 1 exited
+2025-06-02 15:41:12 linux-ky webserver[200990]: INF User demo@demo.com logged in successfully
+2025-06-02 15:47:20 linux-ky webserver[200990]: INF 1 exited
+2025-06-02 15:50:13 linux-ky webserver[202281]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:50:13 linux-ky webserver[202281]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:50:13 linux-ky webserver[202281]: INF Server is running on port 3000
+2025-06-02 15:50:13 linux-ky webserver[202281]: INF Connected to SQLite database.
+2025-06-02 15:50:13 linux-ky webserver[202281]: INF MCP Client connected
+2025-06-02 15:50:17 linux-ky webserver[202281]: INF MCP Server connected
+2025-06-02 15:50:26 linux-ky webserver[202281]: INF User demo@demo.com logged in successfully
+2025-06-02 15:51:08 linux-ky webserver[202281]: INF User demo@demo.com logged in successfully
+2025-06-02 15:52:00 linux-ky webserver[202556]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:52:00 linux-ky webserver[202556]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:52:00 linux-ky webserver[202556]: INF Server is running on port 3000
+2025-06-02 15:52:00 linux-ky webserver[202556]: INF Connected to SQLite database.
+2025-06-02 15:52:00 linux-ky webserver[202556]: INF MCP Client connected
+2025-06-02 15:52:04 linux-ky webserver[202556]: INF MCP Server connected
+2025-06-02 15:53:21 linux-ky webserver[202751]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:53:21 linux-ky webserver[202751]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:53:21 linux-ky webserver[202751]: INF Server is running on port 3000
+2025-06-02 15:53:21 linux-ky webserver[202751]: INF Connected to SQLite database.
+2025-06-02 15:53:21 linux-ky webserver[202751]: INF MCP Client connected
+2025-06-02 15:53:25 linux-ky webserver[202751]: INF MCP Server connected
+2025-06-02 15:56:20 linux-ky webserver[203177]: INF Socket server MCP Server initialization succeeded
+2025-06-02 15:56:20 linux-ky webserver[203177]: INF Socket server MCP Client initialization succeeded
+2025-06-02 15:56:20 linux-ky webserver[203177]: INF Server is running on port 3000
+2025-06-02 15:56:20 linux-ky webserver[203177]: INF Connected to SQLite database.
+2025-06-02 15:56:20 linux-ky webserver[203177]: INF MCP Client connected
+2025-06-02 15:56:24 linux-ky webserver[203177]: INF MCP Server connected
+2025-06-02 18:08:51 linux-ky webserver[203177]: INF 1 exited
+2025-06-04 03:05:09 linux-ky webserver[302928]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:05:09 linux-ky webserver[302928]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:05:09 linux-ky webserver[302928]: INF Server is running on port 3000
+2025-06-04 03:05:09 linux-ky webserver[302928]: INF Connected to SQLite database.
+2025-06-04 03:05:09 linux-ky webserver[302928]: INF MCP Client connected
+2025-06-04 03:05:17 linux-ky webserver[303066]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:05:17 linux-ky webserver[303066]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:05:17 linux-ky webserver[303066]: INF Server is running on port 3000
+2025-06-04 03:05:17 linux-ky webserver[303066]: INF Connected to SQLite database.
+2025-06-04 03:05:18 linux-ky webserver[303066]: INF MCP Client connected
+2025-06-04 03:05:21 linux-ky webserver[303066]: INF MCP Server connected
+2025-06-04 03:05:25 linux-ky webserver[303066]: INF User demo@demo.com logged in successfully
+2025-06-04 03:05:37 linux-ky webserver[303066]: INF 1 exited
+2025-06-04 03:05:40 linux-ky webserver[303221]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:05:40 linux-ky webserver[303221]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:05:40 linux-ky webserver[303221]: INF Server is running on port 3000
+2025-06-04 03:05:40 linux-ky webserver[303221]: INF Connected to SQLite database.
+2025-06-04 03:05:40 linux-ky webserver[303221]: INF MCP Client connected
+2025-06-04 03:05:42 linux-ky webserver[303221]: INF MCP Server connected
+2025-06-04 03:06:24 linux-ky webserver[303496]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:06:24 linux-ky webserver[303496]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:06:24 linux-ky webserver[303496]: INF Server is running on port 3000
+2025-06-04 03:06:24 linux-ky webserver[303496]: INF Connected to SQLite database.
+2025-06-04 03:06:24 linux-ky webserver[303496]: INF MCP Client connected
+2025-06-04 03:06:27 linux-ky webserver[303496]: INF MCP Server connected
+2025-06-04 03:08:08 linux-ky webserver[303849]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:08:08 linux-ky webserver[303849]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:08:08 linux-ky webserver[303849]: INF Server is running on port 3000
+2025-06-04 03:08:08 linux-ky webserver[303849]: INF Connected to SQLite database.
+2025-06-04 03:08:09 linux-ky webserver[303849]: INF MCP Client connected
+2025-06-04 03:08:12 linux-ky webserver[303849]: INF MCP Server connected
+2025-06-04 03:11:20 linux-ky webserver[304297]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:11:20 linux-ky webserver[304297]: INF Server is running on port 3000
+2025-06-04 03:11:20 linux-ky webserver[304297]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:11:20 linux-ky webserver[304297]: INF Connected to SQLite database.
+2025-06-04 03:11:20 linux-ky webserver[304297]: INF MCP Client connected
+2025-06-04 03:11:23 linux-ky webserver[304297]: INF MCP Server connected
+2025-06-04 03:17:25 linux-ky webserver[304763]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:17:25 linux-ky webserver[304763]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:17:25 linux-ky webserver[304763]: INF Server is running on port 3000
+2025-06-04 03:17:25 linux-ky webserver[304763]: INF Connected to SQLite database.
+2025-06-04 03:17:25 linux-ky webserver[304763]: INF MCP Client connected
+2025-06-04 03:17:27 linux-ky webserver[304763]: INF MCP Server connected
+2025-06-04 03:18:10 linux-ky webserver[304937]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:18:10 linux-ky webserver[304937]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:18:10 linux-ky webserver[304937]: INF Server is running on port 3000
+2025-06-04 03:18:10 linux-ky webserver[304937]: INF Connected to SQLite database.
+2025-06-04 03:18:11 linux-ky webserver[304937]: INF MCP Client connected
+2025-06-04 03:18:13 linux-ky webserver[304937]: INF MCP Server connected
+2025-06-04 03:19:44 linux-ky webserver[305127]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:19:44 linux-ky webserver[305127]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:19:44 linux-ky webserver[305127]: INF Server is running on port 3000
+2025-06-04 03:19:44 linux-ky webserver[305127]: INF Connected to SQLite database.
+2025-06-04 03:19:45 linux-ky webserver[305127]: INF MCP Client connected
+2025-06-04 03:19:47 linux-ky webserver[305127]: INF MCP Server connected
+2025-06-04 03:19:58 linux-ky webserver[305127]: INF User demo@demo.com logged in successfully
+2025-06-04 03:20:27 linux-ky webserver[305127]: INF 1 exited
+2025-06-04 03:24:41 linux-ky webserver[305657]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:24:41 linux-ky webserver[305657]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:24:41 linux-ky webserver[305657]: INF Server is running on port 3000
+2025-06-04 03:24:41 linux-ky webserver[305657]: INF Connected to SQLite database.
+2025-06-04 03:24:41 linux-ky webserver[305657]: INF MCP Client connected
+2025-06-04 03:24:44 linux-ky webserver[305657]: INF MCP Server connected
+2025-06-04 03:24:53 linux-ky webserver[305657]: INF User demo@demo.com logged in successfully
+2025-06-04 03:25:29 linux-ky webserver[305657]: INF MCP Client connected
+2025-06-04 03:25:32 linux-ky webserver[305657]: INF MCP Server connected
+2025-06-04 03:26:20 linux-ky webserver[305987]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:26:20 linux-ky webserver[305987]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:26:20 linux-ky webserver[305987]: INF Server is running on port 3000
+2025-06-04 03:26:20 linux-ky webserver[305987]: INF Connected to SQLite database.
+2025-06-04 03:26:23 linux-ky webserver[305987]: INF User demo@demo.com logged in successfully
+2025-06-04 03:26:39 linux-ky webserver[306123]: INF Socket server MCP Client initialization succeeded
+2025-06-04 03:26:39 linux-ky webserver[306123]: INF Socket server MCP Server initialization succeeded
+2025-06-04 03:26:39 linux-ky webserver[306123]: INF Server is running on port 3000
+2025-06-04 03:26:39 linux-ky webserver[306123]: INF Connected to SQLite database.
+2025-06-04 03:26:39 linux-ky webserver[306123]: INF MCP Client connected
+2025-06-04 03:26:41 linux-ky webserver[306123]: INF MCP Server connected
+2025-06-04 03:26:50 linux-ky webserver[306123]: INF demo@demo.com exited
+2025-06-04 03:26:54 linux-ky webserver[306123]: INF User demo@demo.com logged in successfully
+2025-06-04 03:27:33 linux-ky webserver[306123]: INF demo@demo.com exited
+2025-06-04 12:57:16 linux-ky webserver[306123]: INF No account found or incorrect password for email demo@demo.com
+2025-06-04 12:57:18 linux-ky webserver[306123]: INF User demo@demo.com logged in successfully
+2025-06-04 13:03:00 linux-ky webserver[306123]: INF demo@demo.com exited
+2025-06-04 13:03:10 linux-ky webserver[306123]: INF demo@demo.com exited
+2025-06-04 13:04:22 linux-ky webserver[306123]: INF demo@demo.com exited
+2025-06-04 13:07:17 linux-ky webserver[306123]: INF demo@demo.com exited
+2025-06-04 13:08:44 linux-ky webserver[306123]: INF demo@demo.com exited
+2025-06-04 13:28:50 linux-ky webserver[306123]: INF demo@demo.com exited
+2025-06-04 13:29:21 linux-ky webserver[306123]: INF demo@demo.com exited
+2025-06-04 13:42:20 linux-ky webserver[342830]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:42:20 linux-ky webserver[342830]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:42:20 linux-ky webserver[342830]: INF Server is running on port 3000
+2025-06-04 13:42:20 linux-ky webserver[342830]: INF Connected to SQLite database.
+2025-06-04 13:42:34 linux-ky webserver[342947]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:42:34 linux-ky webserver[342947]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:42:34 linux-ky webserver[342947]: INF Server is running on port 3000
+2025-06-04 13:42:34 linux-ky webserver[342947]: INF Connected to SQLite database.
+2025-06-04 13:42:50 linux-ky webserver[343052]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:42:50 linux-ky webserver[343052]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:42:50 linux-ky webserver[343052]: INF Server is running on port 3000
+2025-06-04 13:42:50 linux-ky webserver[343052]: INF Connected to SQLite database.
+2025-06-04 13:43:35 linux-ky webserver[343113]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:43:35 linux-ky webserver[343113]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:43:35 linux-ky webserver[343113]: INF Server is running on port 3000
+2025-06-04 13:43:35 linux-ky webserver[343113]: INF Connected to SQLite database.
+2025-06-04 13:45:28 linux-ky webserver[343612]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:45:28 linux-ky webserver[343612]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:45:28 linux-ky webserver[343612]: INF Server is running on port 3000
+2025-06-04 13:45:28 linux-ky webserver[343612]: INF Connected to SQLite database.
+2025-06-04 13:45:39 linux-ky webserver[343744]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:45:39 linux-ky webserver[343744]: INF Server is running on port 3000
+2025-06-04 13:45:39 linux-ky webserver[343744]: INF Connected to SQLite database.
+2025-06-04 13:45:39 linux-ky webserver[343744]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:45:54 linux-ky webserver[343790]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:45:54 linux-ky webserver[343790]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:45:54 linux-ky webserver[343790]: INF Server is running on port 3000
+2025-06-04 13:45:54 linux-ky webserver[343790]: INF Connected to SQLite database.
+2025-06-04 13:49:08 linux-ky webserver[344214]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:49:08 linux-ky webserver[344214]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:49:08 linux-ky webserver[344214]: INF Server is running on port 3000
+2025-06-04 13:49:08 linux-ky webserver[344214]: INF Connected to SQLite database.
+2025-06-04 13:49:37 linux-ky webserver[344273]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:49:37 linux-ky webserver[344273]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:49:37 linux-ky webserver[344273]: INF Server is running on port 3000
+2025-06-04 13:49:37 linux-ky webserver[344273]: INF Connected to SQLite database.
+2025-06-04 13:49:45 linux-ky webserver[344320]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:49:45 linux-ky webserver[344320]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:49:45 linux-ky webserver[344320]: INF Server is running on port 3000
+2025-06-04 13:49:45 linux-ky webserver[344320]: INF Connected to SQLite database.
+2025-06-04 13:56:45 linux-ky webserver[344979]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:56:45 linux-ky webserver[344979]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:56:45 linux-ky webserver[344979]: INF Server is running on port 3000
+2025-06-04 13:56:45 linux-ky webserver[344979]: INF Connected to SQLite database.
+2025-06-04 13:57:15 linux-ky webserver[345044]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:57:15 linux-ky webserver[345044]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:57:15 linux-ky webserver[345044]: INF Server is running on port 3000
+2025-06-04 13:57:15 linux-ky webserver[345044]: INF Connected to SQLite database.
+2025-06-04 13:57:15 linux-ky webserver[345044]: INF MCP Client connected
+2025-06-04 13:57:17 linux-ky webserver[345044]: INF MCP Server connected
+2025-06-04 13:59:27 linux-ky webserver[345386]: INF Socket server MCP Client initialization succeeded
+2025-06-04 13:59:27 linux-ky webserver[345386]: INF Socket server MCP Server initialization succeeded
+2025-06-04 13:59:27 linux-ky webserver[345386]: INF Connected to SQLite database.
+2025-06-04 13:59:27 linux-ky webserver[345386]: INF Server is running on port 3000
+2025-06-04 13:59:27 linux-ky webserver[345386]: INF MCP Client connected
+2025-06-04 13:59:29 linux-ky webserver[345386]: INF MCP Server connected
+2025-06-04 14:03:27 linux-ky webserver[345813]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:03:27 linux-ky webserver[345813]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:03:27 linux-ky webserver[345813]: INF Server is running on port 3000
+2025-06-04 14:03:27 linux-ky webserver[345813]: INF Connected to SQLite database.
+2025-06-04 14:03:27 linux-ky webserver[345813]: INF MCP Client connected
+2025-06-04 14:03:29 linux-ky webserver[345813]: INF MCP Server connected
+2025-06-04 14:05:04 linux-ky webserver[345813]: INF New user with email demo@demo.com created.
+2025-06-04 14:05:13 linux-ky webserver[345813]: INF User demo@demo.com logged in successfully
+2025-06-04 14:11:48 linux-ky webserver[346882]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:11:48 linux-ky webserver[346882]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:11:48 linux-ky webserver[346882]: INF Server is running on port 3000
+2025-06-04 14:11:48 linux-ky webserver[346882]: INF Connected to SQLite database.
+2025-06-04 14:11:48 linux-ky webserver[346882]: INF MCP Client connected
+2025-06-04 14:11:50 linux-ky webserver[346882]: INF MCP Server connected
+2025-06-04 14:12:41 linux-ky webserver[347054]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:12:41 linux-ky webserver[347054]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:12:41 linux-ky webserver[347054]: INF Server is running on port 3000
+2025-06-04 14:12:41 linux-ky webserver[347054]: INF Connected to SQLite database.
+2025-06-04 14:14:07 linux-ky webserver[347363]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:14:07 linux-ky webserver[347363]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:14:07 linux-ky webserver[347363]: INF Server is running on port 3000
+2025-06-04 14:14:07 linux-ky webserver[347363]: INF Connected to SQLite database.
+2025-06-04 14:14:07 linux-ky webserver[347363]: INF MCP Client connected
+2025-06-04 14:14:10 linux-ky webserver[347363]: INF MCP Server connected
+2025-06-04 14:14:30 linux-ky webserver[347363]: INF demo@demo.com exited
+2025-06-04 14:14:39 linux-ky webserver[347363]: INF User demo@demo.com logged in successfully
+2025-06-04 14:16:47 linux-ky webserver[347874]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:16:47 linux-ky webserver[347874]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:16:47 linux-ky webserver[347874]: INF Server is running on port 3000
+2025-06-04 14:16:47 linux-ky webserver[347874]: INF Connected to SQLite database.
+2025-06-04 14:16:47 linux-ky webserver[347874]: INF MCP Client connected
+2025-06-04 14:16:49 linux-ky webserver[347874]: INF MCP Server connected
+2025-06-04 14:18:47 linux-ky webserver[348104]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:18:47 linux-ky webserver[348104]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:18:47 linux-ky webserver[348104]: INF Server is running on port 3000
+2025-06-04 14:18:47 linux-ky webserver[348104]: INF Connected to SQLite database.
+2025-06-04 14:18:47 linux-ky webserver[348104]: INF MCP Client connected
+2025-06-04 14:18:49 linux-ky webserver[348104]: INF MCP Server connected
+2025-06-04 14:19:22 linux-ky webserver[348104]: INF demo@demo.com exited
+2025-06-04 14:23:53 linux-ky webserver[348654]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:23:53 linux-ky webserver[348654]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:23:53 linux-ky webserver[348654]: INF Server is running on port 3000
+2025-06-04 14:23:53 linux-ky webserver[348654]: INF Connected to SQLite database.
+2025-06-04 14:23:53 linux-ky webserver[348654]: INF MCP Client connected
+2025-06-04 14:23:55 linux-ky webserver[348654]: INF MCP Server connected
+2025-06-04 14:31:15 linux-ky webserver[349297]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:31:15 linux-ky webserver[349297]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:31:15 linux-ky webserver[349297]: INF Server is running on port 3000
+2025-06-04 14:31:15 linux-ky webserver[349297]: INF Connected to SQLite database.
+2025-06-04 14:31:37 linux-ky webserver[349365]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:31:37 linux-ky webserver[349365]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:31:37 linux-ky webserver[349365]: INF Server is running on port 3000
+2025-06-04 14:31:37 linux-ky webserver[349365]: INF Connected to SQLite database.
+2025-06-04 14:31:54 linux-ky webserver[349428]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:31:54 linux-ky webserver[349428]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:31:54 linux-ky webserver[349428]: INF Server is running on port 3000
+2025-06-04 14:31:54 linux-ky webserver[349428]: INF Connected to SQLite database.
+2025-06-04 14:32:05 linux-ky webserver[349482]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:32:05 linux-ky webserver[349482]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:32:05 linux-ky webserver[349482]: INF Server is running on port 3000
+2025-06-04 14:32:05 linux-ky webserver[349482]: INF Connected to SQLite database.
+2025-06-04 14:35:22 linux-ky webserver[349893]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:35:22 linux-ky webserver[349893]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:35:22 linux-ky webserver[349893]: INF Server is running on port 3000
+2025-06-04 14:35:22 linux-ky webserver[349893]: INF Connected to SQLite database.
+2025-06-04 14:35:23 linux-ky webserver[349893]: INF MCP Client connected
+2025-06-04 14:35:25 linux-ky webserver[349893]: INF MCP Server connected
+2025-06-04 14:35:30 linux-ky webserver[349893]: INF New user with email demo@demo.com created.
+2025-06-04 14:35:45 linux-ky webserver[349893]: INF demo@demo.com exited
+2025-06-04 14:35:50 linux-ky webserver[349893]: INF User demo@demo.com logged in successfully
+2025-06-04 14:39:15 linux-ky webserver[350308]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:39:15 linux-ky webserver[350308]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:39:15 linux-ky webserver[350308]: INF Server is running on port 3000
+2025-06-04 14:39:15 linux-ky webserver[350308]: INF Connected to SQLite database.
+2025-06-04 14:39:16 linux-ky webserver[350308]: INF MCP Client connected
+2025-06-04 14:39:18 linux-ky webserver[350308]: INF MCP Server connected
+2025-06-04 14:49:55 linux-ky webserver[351574]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:49:55 linux-ky webserver[351574]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:49:55 linux-ky webserver[351574]: INF Server is running on port 3000
+2025-06-04 14:49:55 linux-ky webserver[351574]: INF Connected to SQLite database.
+2025-06-04 14:49:55 linux-ky webserver[351574]: INF MCP Client connected
+2025-06-04 14:49:57 linux-ky webserver[351574]: INF MCP Server connected
+2025-06-04 14:50:20 linux-ky webserver[351726]: INF Socket server MCP Client initialization succeeded
+2025-06-04 14:50:20 linux-ky webserver[351726]: INF Socket server MCP Server initialization succeeded
+2025-06-04 14:50:20 linux-ky webserver[351726]: INF Server is running on port 3000
+2025-06-04 14:50:20 linux-ky webserver[351726]: INF Connected to SQLite database.
+2025-06-04 14:50:21 linux-ky webserver[351726]: INF MCP Client connected
+2025-06-04 14:50:23 linux-ky webserver[351726]: INF MCP Server connected
+2025-06-04 15:38:01 linux-ky webserver[355857]: INF Socket server MCP Client initialization succeeded
+2025-06-04 15:38:01 linux-ky webserver[355857]: INF Socket server MCP Server initialization succeeded
+2025-06-04 15:38:01 linux-ky webserver[355857]: INF Server is running on port 3000
+2025-06-04 15:38:01 linux-ky webserver[355857]: INF Connected to SQLite database.
+2025-06-04 15:38:02 linux-ky webserver[355857]: INF MCP Client connected
+2025-06-04 15:38:03 linux-ky webserver[355857]: INF MCP Server connected
+2025-06-04 15:46:07 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:46:35 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:47:15 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:48:21 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:49:20 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:49:31 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:50:11 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:51:55 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:53:48 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:53:53 linux-ky webserver[355857]: INF User demo@demo.com logged in successfully
+2025-06-04 15:54:16 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:56:06 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:57:55 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:59:25 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:59:42 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 15:59:51 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 16:00:25 linux-ky webserver[355857]: ERR SyntaxError: Unexpected end of JSON input
+2025-06-04 16:00:44 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 16:00:48 linux-ky webserver[355857]: ERR SyntaxError: Unexpected end of JSON input
+2025-06-04 16:00:52 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 16:01:06 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 16:04:35 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 16:04:39 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 16:04:43 linux-ky webserver[355857]: INF User demo@demo.com logged in successfully
+2025-06-04 16:05:05 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 16:05:11 linux-ky webserver[355857]: INF User demo@demo.com logged in successfully
+2025-06-04 16:05:19 linux-ky webserver[355857]: INF demo@demo.com exited
+2025-06-04 16:06:18 linux-ky webserver[359743]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:06:18 linux-ky webserver[359743]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:06:18 linux-ky webserver[359743]: INF Connected to SQLite database.
+2025-06-04 16:06:18 linux-ky webserver[359743]: INF Server is running on port 3000
+2025-06-04 16:06:18 linux-ky webserver[359743]: INF MCP Client connected
+2025-06-04 16:06:21 linux-ky webserver[359743]: INF MCP Server connected
+2025-06-04 16:06:35 linux-ky webserver[359883]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:06:35 linux-ky webserver[359883]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:06:35 linux-ky webserver[359883]: INF Connected to SQLite database.
+2025-06-04 16:06:35 linux-ky webserver[359883]: INF Server is running on port 3000
+2025-06-04 16:06:35 linux-ky webserver[359883]: INF MCP Client connected
+2025-06-04 16:06:37 linux-ky webserver[359883]: INF MCP Server connected
+2025-06-04 16:06:42 linux-ky webserver[359883]: INF User demo@demo.com logged in successfully
+2025-06-04 16:06:53 linux-ky webserver[359883]: INF SAVING THREAD
+2025-06-04 16:06:53 linux-ky webserver[359883]: INF demo@demo.com exited
+2025-06-04 16:07:09 linux-ky webserver[359883]: INF User demo@demo.com logged in successfully
+2025-06-04 16:07:10 linux-ky webserver[359883]: INF SAVING THREAD
+2025-06-04 16:07:11 linux-ky webserver[359883]: INF SAVING THREAD
+2025-06-04 16:07:12 linux-ky webserver[359883]: INF SAVING THREAD
+2025-06-04 16:09:22 linux-ky webserver[360307]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:09:22 linux-ky webserver[360307]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:09:22 linux-ky webserver[360307]: INF Connected to SQLite database.
+2025-06-04 16:09:22 linux-ky webserver[360307]: INF Server is running on port 3000
+2025-06-04 16:09:23 linux-ky webserver[360307]: INF MCP Client connected
+2025-06-04 16:09:25 linux-ky webserver[360307]: INF MCP Server connected
+2025-06-04 16:12:13 linux-ky webserver[360763]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:12:13 linux-ky webserver[360763]: INF Server is running on port 3000
+2025-06-04 16:12:13 linux-ky webserver[360763]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:12:13 linux-ky webserver[360763]: INF Connected to SQLite database.
+2025-06-04 16:12:13 linux-ky webserver[360763]: INF MCP Client connected
+2025-06-04 16:12:15 linux-ky webserver[360763]: INF MCP Server connected
+2025-06-04 16:14:50 linux-ky webserver[361038]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:14:50 linux-ky webserver[361038]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:14:50 linux-ky webserver[361038]: INF Server is running on port 3000
+2025-06-04 16:14:50 linux-ky webserver[361038]: INF Connected to SQLite database.
+2025-06-04 16:16:24 linux-ky webserver[361038]: INF User demo@demo.com logged in successfully
+2025-06-04 16:17:12 linux-ky webserver[361038]: ERR Error: ENOENT: no such file or directory, open '/home/g0dz/projects/da-llm/chatthreads/3_demo@demo.com.json'
+2025-06-04 16:17:25 linux-ky webserver[361038]: INF SAVING THREAD
+2025-06-04 16:17:49 linux-ky webserver[361482]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:17:49 linux-ky webserver[361482]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:17:49 linux-ky webserver[361482]: INF Server is running on port 3000
+2025-06-04 16:17:49 linux-ky webserver[361482]: INF Connected to SQLite database.
+2025-06-04 16:17:49 linux-ky webserver[361482]: INF MCP Client connected
+2025-06-04 16:17:51 linux-ky webserver[361482]: INF MCP Server connected
+2025-06-04 16:18:15 linux-ky webserver[361621]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:18:15 linux-ky webserver[361621]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:18:15 linux-ky webserver[361621]: INF Server is running on port 3000
+2025-06-04 16:18:15 linux-ky webserver[361621]: INF Connected to SQLite database.
+2025-06-04 16:18:15 linux-ky webserver[361621]: INF MCP Client connected
+2025-06-04 16:18:17 linux-ky webserver[361621]: INF MCP Server connected
+2025-06-04 16:19:01 linux-ky webserver[361621]: INF SAVING THREAD
+2025-06-04 16:20:03 linux-ky webserver[361886]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:20:03 linux-ky webserver[361886]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:20:03 linux-ky webserver[361886]: INF Server is running on port 3000
+2025-06-04 16:20:03 linux-ky webserver[361886]: INF Connected to SQLite database.
+2025-06-04 16:20:04 linux-ky webserver[361886]: INF MCP Client connected
+2025-06-04 16:20:06 linux-ky webserver[361886]: INF MCP Server connected
+2025-06-04 16:20:23 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:20:23 linux-ky webserver[361886]: INF demo@demo.com exited
+2025-06-04 16:20:31 linux-ky webserver[361886]: INF User demo@demo.com logged in successfully
+2025-06-04 16:20:44 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:21:27 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:21:27 linux-ky webserver[361886]: ERR SyntaxError: Unexpected end of JSON input
+2025-06-04 16:21:33 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:22:17 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:22:17 linux-ky webserver[361886]: INF demo@demo.com exited
+2025-06-04 16:22:43 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:23:12 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:23:12 linux-ky webserver[361886]: INF demo@demo.com exited
+2025-06-04 16:23:16 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:23:32 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:23:33 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:23:33 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:23:45 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:24:22 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:24:22 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:24:30 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:24:30 linux-ky webserver[361886]: INF demo@demo.com exited
+2025-06-04 16:24:56 linux-ky webserver[361886]: INF User demo@demo.com logged in successfully
+2025-06-04 16:25:04 linux-ky webserver[361886]: INF SAVING THREAD
+2025-06-04 16:26:01 linux-ky webserver[362637]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:26:01 linux-ky webserver[362637]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:26:01 linux-ky webserver[362637]: INF Server is running on port 3000
+2025-06-04 16:26:01 linux-ky webserver[362637]: INF Connected to SQLite database.
+2025-06-04 16:26:02 linux-ky webserver[362637]: INF MCP Client connected
+2025-06-04 16:26:05 linux-ky webserver[362637]: INF MCP Server connected
+2025-06-04 16:26:11 linux-ky webserver[362779]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:26:11 linux-ky webserver[362779]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:26:11 linux-ky webserver[362779]: INF Server is running on port 3000
+2025-06-04 16:26:11 linux-ky webserver[362779]: INF Connected to SQLite database.
+2025-06-04 16:26:11 linux-ky webserver[362779]: INF MCP Client connected
+2025-06-04 16:26:13 linux-ky webserver[362779]: INF MCP Server connected
+2025-06-04 16:27:05 linux-ky webserver[362964]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:27:05 linux-ky webserver[362964]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:27:05 linux-ky webserver[362964]: INF Connected to SQLite database.
+2025-06-04 16:27:05 linux-ky webserver[362964]: INF Server is running on port 3000
+2025-06-04 16:27:05 linux-ky webserver[362964]: INF MCP Client connected
+2025-06-04 16:27:08 linux-ky webserver[362964]: INF MCP Server connected
+2025-06-04 16:27:08 linux-ky webserver[362964]: INF SAVING THREAD
+2025-06-04 16:27:31 linux-ky webserver[363122]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:27:31 linux-ky webserver[363122]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:27:31 linux-ky webserver[363122]: INF Server is running on port 3000
+2025-06-04 16:27:31 linux-ky webserver[363122]: INF Connected to SQLite database.
+2025-06-04 16:27:31 linux-ky webserver[363122]: INF MCP Client connected
+2025-06-04 16:27:33 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:27:34 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:27:34 linux-ky webserver[363122]: INF MCP Server connected
+2025-06-04 16:27:56 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:28:32 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:28:32 linux-ky webserver[363122]: INF demo@demo.com exited
+2025-06-04 16:28:35 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:29:03 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:29:03 linux-ky webserver[363122]: INF demo@demo.com exited
+2025-06-04 16:29:04 linux-ky webserver[363122]: INF demo@demo.com exited
+2025-06-04 16:29:08 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:30:07 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:30:07 linux-ky webserver[363122]: INF demo@demo.com exited
+2025-06-04 16:30:09 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:30:54 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:30:54 linux-ky webserver[363122]: INF demo@demo.com exited
+2025-06-04 16:30:57 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:23 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:23 linux-ky webserver[363122]: INF demo@demo.com exited
+2025-06-04 16:32:25 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:26 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:26 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:26 linux-ky webserver[363122]: ERR SyntaxError: Unexpected end of JSON input
+2025-06-04 16:32:48 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:49 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:52 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:53 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:54 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:54 linux-ky webserver[363122]: ERR SyntaxError: Unexpected end of JSON input
+2025-06-04 16:32:55 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:32:56 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:33:29 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:33:29 linux-ky webserver[363122]: INF demo@demo.com exited
+2025-06-04 16:33:41 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:33:44 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:33:44 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:33:45 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:33:45 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:33:45 linux-ky webserver[363122]: ERR SyntaxError: Unexpected end of JSON input
+2025-06-04 16:33:46 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:33:46 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:34:17 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:34:17 linux-ky webserver[363122]: INF demo@demo.com exited
+2025-06-04 16:34:20 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:34:22 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:34:22 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:14 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:16 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:18 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:19 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:20 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:21 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:21 linux-ky webserver[363122]: ERR SyntaxError: Unexpected end of JSON input
+2025-06-04 16:35:22 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:22 linux-ky webserver[363122]: ERR SyntaxError: Unexpected end of JSON input
+2025-06-04 16:35:22 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:23 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:24 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:51 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:51 linux-ky webserver[363122]: INF demo@demo.com exited
+2025-06-04 16:35:53 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:54 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:35:54 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:36:18 linux-ky webserver[363122]: INF SAVING THREAD
+2025-06-04 16:36:18 linux-ky webserver[363122]: INF demo@demo.com exited
+2025-06-04 16:36:38 linux-ky webserver[364657]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:36:38 linux-ky webserver[364657]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:36:38 linux-ky webserver[364657]: INF Server is running on port 3000
+2025-06-04 16:36:38 linux-ky webserver[364657]: INF Connected to SQLite database.
+2025-06-04 16:36:38 linux-ky webserver[364657]: INF MCP Client connected
+2025-06-04 16:36:41 linux-ky webserver[364657]: INF MCP Server connected
+2025-06-04 16:37:15 linux-ky webserver[364799]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:37:15 linux-ky webserver[364799]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:37:15 linux-ky webserver[364799]: INF Server is running on port 3000
+2025-06-04 16:37:15 linux-ky webserver[364799]: INF Connected to SQLite database.
+2025-06-04 16:37:15 linux-ky webserver[364799]: INF MCP Client connected
+2025-06-04 16:37:17 linux-ky webserver[364799]: INF MCP Server connected
+2025-06-04 16:37:40 linux-ky webserver[364948]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:37:40 linux-ky webserver[364948]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:37:40 linux-ky webserver[364948]: INF Server is running on port 3000
+2025-06-04 16:37:40 linux-ky webserver[364948]: INF Connected to SQLite database.
+2025-06-04 16:37:40 linux-ky webserver[364948]: INF MCP Client connected
+2025-06-04 16:37:43 linux-ky webserver[364948]: INF MCP Server connected
+2025-06-04 16:37:52 linux-ky webserver[365085]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:37:52 linux-ky webserver[365085]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:37:52 linux-ky webserver[365085]: INF Server is running on port 3000
+2025-06-04 16:37:52 linux-ky webserver[365085]: INF Connected to SQLite database.
+2025-06-04 16:37:53 linux-ky webserver[365085]: INF MCP Client connected
+2025-06-04 16:37:55 linux-ky webserver[365085]: INF MCP Server connected
+2025-06-04 16:38:07 linux-ky webserver[365240]: INF Socket server MCP Client initialization succeeded
+2025-06-04 16:38:07 linux-ky webserver[365240]: INF Socket server MCP Server initialization succeeded
+2025-06-04 16:38:07 linux-ky webserver[365240]: INF Server is running on port 3000
+2025-06-04 16:38:07 linux-ky webserver[365240]: INF Connected to SQLite database.
+2025-06-04 16:38:07 linux-ky webserver[365240]: INF MCP Client connected
+2025-06-04 16:38:10 linux-ky webserver[365240]: INF MCP Server connected
+2025-06-04 16:38:14 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:54:10 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:54:11 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:54:31 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:54:35 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:54:42 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:54:44 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:54:44 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:54:47 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:54:48 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:54:50 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:55:38 linux-ky webserver[365240]: INF MCP Client connected
+2025-06-04 16:55:40 linux-ky webserver[365240]: INF MCP Server connected
+2025-06-04 16:55:47 linux-ky webserver[365240]: INF SAVING THREAD
+2025-06-04 16:55:47 linux-ky webserver[365240]: INF demo@demo.com exited
+2025-06-04 17:10:18 linux-ky webserver[368213]: INF Socket server MCP Client initialization succeeded
+2025-06-04 17:10:18 linux-ky webserver[368213]: INF Socket server MCP Server initialization succeeded
+2025-06-04 17:10:18 linux-ky webserver[368213]: INF Server is running on port 3000
+2025-06-04 17:10:18 linux-ky webserver[368213]: INF Connected to SQLite database.
+2025-06-04 17:10:18 linux-ky webserver[368213]: INF MCP Client connected
+2025-06-04 17:10:25 linux-ky webserver[368417]: INF Socket server MCP Client initialization succeeded
+2025-06-04 17:10:25 linux-ky webserver[368417]: INF Socket server MCP Server initialization succeeded
+2025-06-04 17:10:25 linux-ky webserver[368417]: INF Server is running on port 3000
+2025-06-04 17:10:25 linux-ky webserver[368417]: INF Connected to SQLite database.
+2025-06-04 17:10:25 linux-ky webserver[368417]: INF MCP Client connected
+2025-06-04 17:10:28 linux-ky webserver[368417]: INF MCP Server connected
+2025-06-04 17:11:18 linux-ky webserver[368814]: INF Socket server MCP Client initialization succeeded
+2025-06-04 17:11:18 linux-ky webserver[368814]: INF Socket server MCP Server initialization succeeded
+2025-06-04 17:11:18 linux-ky webserver[368814]: INF Server is running on port 3000
+2025-06-04 17:11:18 linux-ky webserver[368814]: INF Connected to SQLite database.
+2025-06-04 17:11:19 linux-ky webserver[368814]: INF MCP Client connected
+2025-06-04 17:11:22 linux-ky webserver[368814]: INF MCP Server connected
+2025-06-06 13:53:24 linux-ky webserver[110421]: INF Socket server MCP Client initialization succeeded
+2025-06-06 13:53:24 linux-ky webserver[110421]: INF Socket server MCP Server initialization succeeded
+2025-06-06 13:53:24 linux-ky webserver[110421]: INF Connected to SQLite database.
+2025-06-06 13:53:24 linux-ky webserver[110421]: INF Server is running on port 3000
+2025-06-06 13:53:25 linux-ky webserver[110421]: INF MCP Client connected
+2025-06-06 13:53:29 linux-ky webserver[110421]: INF MCP Server connected
+2025-06-06 13:53:40 linux-ky webserver[110421]: INF demo@demo.com exited
+2025-06-06 13:54:48 linux-ky webserver[110421]: INF User demo@demo.com logged in successfully
+2025-06-06 13:57:25 linux-ky webserver[111417]: INF Socket server MCP Client initialization succeeded
+2025-06-06 13:57:25 linux-ky webserver[111417]: INF Socket server MCP Server initialization succeeded
+2025-06-06 13:57:25 linux-ky webserver[111417]: INF Server is running on port 3000
+2025-06-06 13:57:25 linux-ky webserver[111417]: INF Connected to SQLite database.
+2025-06-06 13:57:26 linux-ky webserver[111417]: INF MCP Client connected
+2025-06-06 13:57:29 linux-ky webserver[111417]: INF MCP Server connected
